@@ -1,0 +1,59 @@
+---
+title: "Introduction"
+format:
+  html:
+    toc: true
+    embed-resources: true
+---
+
+![](../images/argentina_solar_panels.png){width="100%"}
+*Solar Panels in Argentina*[1]
+
+## Introduce Argentina
+
+*Argentina[2], located in the southern region of South America, is a country of vast dimensions and geographical diversity. With an area of 3,761,274 km², it is the fourth largest country in the Americas and the seventh largest in the world. This extensive territory is characterized by a wide range of climates and landscapes. Geopolitically, Argentina shares borders with Bolivia and Paraguay to the north, Brazil, Uruguay, and the Atlantic Ocean to the east, and Chile to both the south and west.*
+
+*With a population of approximately 46.2 million (2022 data), Argentina is one of the most populous countries in Latin America. Urban areas such as the Autonomous City of Buenos Aires, Córdoba, and Rosario account for a significant portion of this population. Despite its rich natural resources such as lead, zinc, copper, and uranium, as well as substantial oil and gas reserves—Argentina faces significant challenges due to economic inequality. Many regions, especially those far from major cities, lack access to basic resources such as energy and electricity.*
+
+*Argentina’s fertile land has made it a global leader in agricultural and livestock production, with key exports like soybeans, wheat, and beef. However, its energy matrix has historically relied heavily on non-renewable sources, making the diversification of energy production a critical priority. The country’s geographic and climatic potential presents an opportunity to use renewable energy sources, including solar power, to address both environmental and social challenges.*
+
+*This project focuses on evaluating departments in Argentina to assess their suitability for solar panel installations. By targeting isolated areas, the goal is to provide access to energy for communities that currently lack reliable electricity. This project aims to improve living conditions and seeks to have a social impact . Key factors considered in the analysis include population density, number of households, distance to existing energy stations, and the economic activity by looking at gross domestic product (GDP).*
+
+## Solar Panels Key Insights
+
+*In this project, we aim to evaluate the best conditions for solar panel installation, taking into account various weather factors that affect solar panel efficiency. According to an article by (Palmetto Solar Energy Solutions)[3] (28 August 2023), although it may seem intuitive that more sunlight equals more power, high temperatures can actually reduce solar panel efficiency. Just like many electronic devices, solar panels are sensitive to heat. When exposed to high temperatures, the flow of electricity-generating particles within each solar cell is slowed, leading to a decrease in power production.*
+
+*The ideal operating temperature for most solar panels is around 77°F (25°C). Temperatures above this can cause efficiency to drop, which is why, for this project, we will consider an optimum range of 20-25°C . Along with temperature, solar radiation and precipitation are also key factors. Solar panels generate more power during the summer months due to longer daylight hours, although high temperatures can slightly reduce their efficiency. Therefore, understanding the seasonality of solar power generation, along with the optimal temperature and solar radiation conditions, will be crucial in determining the best locations for solar panel installation in Argentina.*
+
+## Points of Analysis
+
+### Data Science Question
+*> How can we use the available demographic, economic, and environmental data through spatial data analytics to identify, evaluate, and model the suitability of optimal locations for solar panel installation in the regions of Argentina?*
+
+### Data Question
+*> What variables are most relevant for evaluating the suitability of solar panel installations in Argentina?*
+
+*> How do the demographic and economic data influence the suitability of solar panel installation?*
+
+### EDA Question
+*> What is the current paradigm for Argentina from an energy point of view?*
+*> How are different energy stations distributed througout the country?*
+
+### GIS Modeling Question
+*> How does the geographic information vary in format and granularity across different data sources, and how can we ensure consistency for the analysis of solar panel installation suitability?*
+
+*> What GIS techniques can be used to integrate and analyze multiple spatial layers to identify regions with optimal conditions for solar panel installations?*
+
+### Model Question
+*> How can we leverage insights from the literature review to determine the impact of factors on the final score model, and what should be the appropriate weight assigned to each variable to ensure an accurate assessment of solar panel suitability?*
+
+*> What statistical methods should we consider applying across all variables to customize scoring methods for different data types and maintain consistency in the final score model?*
+
+
+**References:**
+
+[1] [Ecohz Sustainability solutions](https://www.ecohz.com/guanizuil-iia-solar-power-argentina)
+
+[2] [Argentina.gob.ar](https://www.argentina.gob.ar/pais)
+
+[3] [Palmetto Solar Energy Solutions](https://palmetto.com/solar/solar-panel-temperature-range-explained)

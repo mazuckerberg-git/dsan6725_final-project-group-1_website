@@ -1,0 +1,45 @@
+project:
+  type: website
+  output-dir: ../docs
+
+website:
+  title: GIS for Spatial Data Science
+  navbar:
+    left:
+      - text: Home | About Me
+        href: https://mazuckerberg.georgetown.domains/
+
+  sidebar:
+    title: "Content:"
+    style: "docked"
+    collapse-level: 1
+    align: left
+    contents:
+      - text: Github | Code
+        href: https://github.com/mazuckerberg-git/GIS_project.io/tree/main/code
+      - text: Github | Data
+        href: https://github.com/mazuckerberg-git/GIS_project.io/tree/main/data
+      - text: Introduction
+        href: introduction.html
+      - text: Data Gathering
+        href: data_gathering.html
+
+      - section: "Data Modeling"
+        contents:
+          - text: '- Weather Data'
+            href: data_modeling_weather.html
+          - text: '- Demographic Data'
+            href: data_modeling_demographic.html
+
+      - text: Scoring Model
+        href: model.html
+      - text: Results
+        href: results.html
+      - text: Conclusion
+        href: conclusion.html
+
+format:
+  html:
+    theme: minty
+    css: styles.css
+    toc: true
