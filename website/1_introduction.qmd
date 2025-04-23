@@ -7,10 +7,10 @@ format:
 ---
 
 ## Introduction
+Intro
 
-
-### Points of Analysis
-
+## Points of Analysis
+Main points
 
 ### Data Science Question
 **Question**
