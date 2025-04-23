@@ -2,11 +2,9 @@
 # chmod +x ./website/deploy_website.sh
 # ./website/deploy_website.sh
 
-rm -f ../docs/*.html
+rm -f docs/*
 
 # Render files from the "website" folder to the "docs" folder
-
-quarto render website
 
 quarto render website/1_introduction.qmd
 
