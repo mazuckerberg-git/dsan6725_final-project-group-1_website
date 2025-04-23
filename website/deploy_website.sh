@@ -5,6 +5,9 @@
 rm -f ../docs/*.html
 
 # Render files from the "website" folder to the "docs" folder
+
+quarto render website
+
 quarto render website/1_introduction.qmd
 
 quarto render website/0_index.qmd

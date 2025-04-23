@@ -25,11 +25,12 @@ embed-resources: true
 
   <h1 style="text-align:center;"> Speeding up Stock Market Insights with Generative AI </h1>
 
+  <p align="center">
+  A Multi-Agent System for Stock Market Analysis
+  </p>
+
   <br>
 
   <p style="text-align:center;"> By: Shriya Chinthak and Maria Agustina Zuckerberg </p>
-  <p align="center">
-  GU Net ID: maz53
-  </p>
 
 </div>
