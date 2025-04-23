@@ -3,7 +3,7 @@ project:
   output-dir: ../docs
 
 website:
-  title: GIS for Spatial Data Science
+  title: Gen AI for Developers
   navbar:
     left:
       - text: Home | About Me
@@ -16,11 +16,9 @@ website:
     align: left
     contents:
       - text: Github | Code
-        href: https://github.com/mazuckerberg-git/GIS_project.io/tree/main/code
-      - text: Github | Data
-        href: https://github.com/mazuckerberg-git/GIS_project.io/tree/main/data
+        href: https://github.com/gu-dsan6725/spring-2025-final-project-project-group-1
       - text: Introduction
-        href: introduction.html
+        href: ../docs/introduction.html
 
 format:
   html:
