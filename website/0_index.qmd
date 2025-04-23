@@ -27,8 +27,6 @@ embed-resources: true
 
   <br>
 
-  <h2 style="text-align:center;"> A Multi-Agent System for Stock Market Analysis </h2>
-
   <p style="text-align:center;"> By: Shriya Chinthak and Maria Agustina Zuckerberg </p>
   <p align="center">
   GU Net ID: maz53

@@ -21,22 +21,6 @@ website:
         href: https://github.com/mazuckerberg-git/GIS_project.io/tree/main/data
       - text: Introduction
         href: introduction.html
-      - text: Data Gathering
-        href: data_gathering.html
-
-      - section: "Data Modeling"
-        contents:
-          - text: '- Weather Data'
-            href: data_modeling_weather.html
-          - text: '- Demographic Data'
-            href: data_modeling_demographic.html
-
-      - text: Scoring Model
-        href: model.html
-      - text: Results
-        href: results.html
-      - text: Conclusion
-        href: conclusion.html
 
 format:
   html:
