@@ -1,6 +1,6 @@
 #!/bin/bash
-# chmod +x ./website_code/deploy_website.sh
-# ./website_code/deploy_website.sh
+# chmod +x ./website/deploy_website.sh
+# ./website/deploy_website.sh
 
 rm -f ../docs/*.html
 
