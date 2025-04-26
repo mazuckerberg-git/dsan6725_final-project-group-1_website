@@ -22,6 +22,6 @@ website:
 
 format:
   html:
-    theme: minty
+    theme: Flatly
     css: styles.css
     toc: true
