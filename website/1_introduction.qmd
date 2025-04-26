@@ -7,7 +7,9 @@ format:
 ---
 
 ## Introduction
-Intro
+- Overview of the problem being addressed.
+- Motivation for choosing this problem and its relevance in the field of Generative AI.
+- Research questions or hypotheses (if applicable).
 
 ## Points of Analysis
 Main points

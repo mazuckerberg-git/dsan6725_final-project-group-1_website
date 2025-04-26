@@ -1,0 +1,15 @@
+---
+title: "Models and Technologies Used"
+format:
+  html:
+    toc: true
+    embed-resources: true
+---
+
+## Title
+**Content**
+
+- Discussion on the models utilized (LLMs, embedding models, classifiers, etc.).
+- Comparison of different models and justification for final choices.
+- Any inference optimizations applied (e.g., quantization, distillation, multi-adapter swapping).
+

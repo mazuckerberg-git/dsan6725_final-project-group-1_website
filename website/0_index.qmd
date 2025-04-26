@@ -3,34 +3,50 @@ title: ""
 embed-resources: true
 ---
 
-<div style="width: 80%; margin: 0 auto; text-align: center;">
-  <p align="center">
-    <a href="https://analytics.georgetown.edu/?gclid=Cj0KCQjw06-oBhC6ARIsAGuzdw2b8lno5S_FrqNrX38C02mnTq05xgDy5yRhACR6s6sf4_ynWWezrFEaAhezEALw_wcB">
-      <img src="../images/georgetown_logo.png" alt="" width="200">
-    </a>
-  </p>
+::: {style="width: 80%; margin: 0 auto; text-align: center;"}
+<!-- <p align="center"> --> <a href="https://analytics.georgetown.edu/?gclid=Cj0KCQjw06-oBhC6ARIsAGuzdw2b8lno5S_FrqNrX38C02mnTq05xgDy5yRhACR6s6sf4_ynWWezrFEaAhezEALw_wcB"> <img src="../images/georgetown_logo.png" width="200"/> </a> <!-- </p> -->
 
-  <br>
+<br>
 
-  <h5 style="text-align:center;"> M.S. in Data Science and Analytics </h5>
+<h5 style="text-align:center;">
 
-  <br>
+M.S. in Data Science and Analytics
 
-  <h3 style="text-align:center;"> Applied Generative AI for Developers </h3>
+</h5>
 
-  <h3 style="text-align:center;"> Final Project </h3>
+<br>
 
-  <br>
+<h3 style="text-align:center;">
 
+Applied Generative AI for Developers
 
-  <h1 style="text-align:center;"> Speeding up Stock Market Insights with Generative AI </h1>
+</h3>
 
-  <p align="center">
-  A Multi-Agent System for Stock Market Analysis
-  </p>
+<h3 style="text-align:center;">
 
-  <br>
+Final Project
 
-  <p style="text-align:center;"> By: Shriya Chinthak and Maria Agustina Zuckerberg </p>
+</h3>
 
-</div>
+<br>
+
+<h1 style="text-align:center;">
+
+Speeding up Stock Market Insights with Generative AI
+
+</h1>
+
+<p align="center">
+
+A Multi-Agent System for Stock Market Analysis
+
+</p>
+
+<br>
+
+<p style="text-align:center;">
+
+By: Shriya Chinthak and Maria Agustina Zuckerberg
+
+</p>
+:::

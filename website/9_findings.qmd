@@ -1,0 +1,14 @@
+---
+title: "Findings and Insights"
+format:
+  html:
+    toc: true
+    embed-resources: true
+---
+
+## Title
+**Content**
+
+- Key takeaways from the project.
+- Unexpected challenges and how they were addressed.
+- Performance trade-offs and scalability considerations.

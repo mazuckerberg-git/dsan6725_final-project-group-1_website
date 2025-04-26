@@ -1,0 +1,18 @@
+---
+title: "Data Source"
+format:
+  html:
+    toc: true
+    embed-resources: true
+---
+
+## Data Source
+**Content**
+
+- Description of the data sources used (public datasets, proprietary data, scraped data, etc.).
+- Justification for data selection and preprocessing choices.
+
+## Preparation
+**Content**
+
+- Data preprocessing steps, including cleaning, augmentation, and transformations.

@@ -1,0 +1,15 @@
+---
+title: "Agents"
+format:
+  html:
+    toc: true
+    embed-resources: true
+---
+
+## Title
+**Content**
+
+- Architecture of AI agents used.
+- Frameworks used (e.g., LangChain, LlamaIndex, Haystack).
+- Types of agents (e.g., tool-using agents, autonomous agents, planning agents).
+- How agents interact with external tools and APIs.
