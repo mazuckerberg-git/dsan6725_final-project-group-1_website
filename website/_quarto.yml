@@ -21,7 +21,7 @@ website:
         href: 1_introduction.html
       - text: Data Source and Preparation
         href: 2_data.html
-      - text: Retrieval-Augmented Generation (RAG)
+      - text: Retrieval-Augmented Generation
         href: 3_rag.html
       - text: AI Agents
         href: 4_agents.html
@@ -41,5 +41,4 @@ website:
 format:
   html:
     theme: Flatly
-    css: styles.css
     toc: true
