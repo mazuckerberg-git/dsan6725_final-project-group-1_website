@@ -3,8 +3,6 @@
 # ./website/deploy_website.sh
 
 rm -f docs/*
-rm -f ../website/.quarto/*
-
 
 # Render files from the "website" folder to the "docs" folder
 
