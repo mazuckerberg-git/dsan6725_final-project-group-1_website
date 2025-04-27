@@ -19,7 +19,25 @@ website:
         href: https://github.com/gu-dsan6725/spring-2025-final-project-project-group-1
       - text: Introduction
         href: 1_introduction.html
-
+      - text: Data Source and Preparation
+        href: 2_data.html
+      - text: Retrieval-Augmented Generation (RAG)
+        href: 3_rag.html
+      - text: AI Agents
+        href: 4_agents.html
+      - text: Models and Technologies Used
+        href: 5_models.html
+      - text: Tools and Frameworks
+        href: 6_tools.html
+      - text: Evaluation of Effectiveness
+        href: 7_evaluation.html
+      - text: Responsible AI Considerations
+        href: 8_AI_considerations.html
+      - text: Findings and Insights
+        href: 9_findings.html
+      - text: Conclusion
+        href: 10_conclusion.html
+      
 format:
   html:
     theme: Flatly

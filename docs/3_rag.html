@@ -4594,7 +4594,7 @@ opacity: .6;
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Retrieval-Augmented Generation (RAG)</li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./3_rag.html">Retrieval-Augmented Generation (RAG)</a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
     </div>
@@ -4616,6 +4616,60 @@ opacity: .6;
   <div class="sidebar-item-container"> 
   <a href="./1_introduction.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Introduction</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./2_data.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Data Source and Preparation</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./3_rag.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text">Retrieval-Augmented Generation (RAG)</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./4_agents.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">AI Agents</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./5_models.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Models and Technologies Used</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./6_tools.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Tools and Frameworks</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./7_evaluation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Evaluation of Effectiveness</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./8_AI_considerations.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Responsible AI Considerations</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./9_findings.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Findings and Insights</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./10_conclusion.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Conclusion</span></a>
   </div>
 </li>
     </ul>
@@ -4658,6 +4712,10 @@ opacity: .6;
 <p>The RAG system is built using the LangChain framework, which allows us to easily integrate various components such as the vectorstore, retriever, and LLM. The vectorstore was created using FAISS, a popular library for efficient similarity search and clustering of dense vectors. The embeddings used to create the vectorstore were generated from Hugging Face’s <code>intfloat/e5-small-v2</code> model, which is lightweight and efficient with both semantic understanding and numeric retrieval capabilities. Our retriever is uses the maximum marginal relevance (MMR) algorithm to ensure that the retrieved documents are both relevant and diverse, which is crucial for providing comprehensive answers to user queries. Additionally, we have set k in the retriever to 30 since we found the RAG to suffer in retrieving the correct documents when k was lower, mainly due to the fact the RAG struggles with filtering data by specific dates and names. Lastly, the LLM used for answer generation is Claude 3.5 Sonnet from Anthropic, which is a state-of-the-art model known for its reasoning capabilities and ability to generate coherent and contextually relevant responses with being too wordy.</p>
 <p>When it came to creating the structure of the RAG, we also need to take into consideration the chat history and how to best utilize it. We decided that rather than creating a RAG chain, we would seperate it by question answer chain and document retrieval. We first combine the user query and the chat history into a single string, which is then passed to the retriever to find the most relevant documents. The retrieved documents are then passed to the question answer chain, (made up of the llm, system prompt, and documents) to generate a response. This approach allows us to maintain the context of the conversation while ensuring that the RAG system can effectively retrieve and utilize the most relevant information.</p>
 <p>The RAG system is able to provide a cohesive answer, either directly based on the retrived documents or a statement that not enough data was found, back to the supervisor agent to be sent to the user. The system is build such that the supervisor agent simple transfers the RAG’s output to the user instead of augmenting any additonal details to avoid any type of hallucination.</p>
+<p><strong>References:</strong></p>
+<p>[^1] <a href="https://python.langchain.com/docs/">LangChain</a></p>
+<p>[^2] <a href="https://huggingface.co/">Hugging Face</a></p>
+<p>[^3] <a href="https://python.langchain.com/docs/integrations/vectorstores/faiss/">FAISS</a></p>
 
 
 </section>
