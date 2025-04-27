@@ -1,35 +1,14 @@
 ---
-title: "Introduction"
 format:
   html:
     embed-resources: true
 ---
 
 ## Introduction
-- Overview of the problem being addressed.
-
-- Motivation for choosing this problem and its relevance in the field of Generative AI.
-
-- Research questions or hypotheses (if applicable).
-
----
 
 Our Stock Market LLM Assistant will be designed to provide insights on stock market data using a multi-agent system. The application leverages data engineering and RAG (Retrieval-Augmented Generation) agents to automate data collection, processing, and query handling. The data agent gathers stock market data via APIs, and cleans and stores it using FAISS. The engineering agent generates visualizations, executes code, and documents processes. The RAG agent answers user queries, analyzes stock trends, compares tickers, and generates customized datasets and visualizations. Our fully-functioning generative AI model will be contained in a user-friendly application which offers an interactive and intuitive experience for users seeking stock market insights.
 
 Our goal for this assistant is to create an application that is accessible to a wide range of users; from novice investors to experienced traders. The streamlit interface acts like a chat bot that allows users to ask questions about stock market data and receive real-time insights. Automated report generation, especially in finance, is a powerful and needed tool in the corporate world right now and we believe this project to serve as a stepping stone into more sophisticated iterations in the future for others to build upon.
-
-## Points of Analysis
-Main points
-
-### Data Science Question
-**Question**
-
-### Data Question
-- Question 1
-
-- Question 2
-
-- Question 3
 
 
 
