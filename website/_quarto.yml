@@ -26,7 +26,7 @@ website:
       - text: AI Agents
         href: 4_agents.html
       - text: Models and Technologies Used
-        href: 5_models.html
+        href: 5_model.html
       - text: Tools and Frameworks
         href: 6_tools.html
       - text: Evaluation of Effectiveness
