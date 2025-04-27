@@ -3,8 +3,12 @@
 # ./website/deploy_website.sh
 
 rm -f docs/*
+rm -f ../website/.quarto/*
+
 
 # Render files from the "website" folder to the "docs" folder
+
+quarto render website
 
 quarto render website/0_index.qmd
 
