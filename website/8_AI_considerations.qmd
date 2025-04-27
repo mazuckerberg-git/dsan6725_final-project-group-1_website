@@ -6,8 +6,6 @@ format:
     embed-resources: true
 ---
 
-## Title
-**Content**
 
 - Bias and fairness checks conducted.
 

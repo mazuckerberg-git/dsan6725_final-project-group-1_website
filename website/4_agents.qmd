@@ -6,9 +6,6 @@ format:
     embed-resources: true
 ---
 
-## Title
-**Content**
-
 - Architecture of AI agents used.
 
 - Frameworks used (e.g., LangChain, LlamaIndex, Haystack).

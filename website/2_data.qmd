@@ -1,12 +1,10 @@
 ---
+title: "SData Sources"
 format:
   html:
     toc: true
     embed-resources: true
 ---
-
-## Data Source
-**Content**
 
 For our Stock Market LLM Assistant project we selected data sources that directly align with the requirements of financial analysis and stock market insight generation. As the project focuses on stock market evaluation, our primary data source is stock price information from Yahoo Finance. This data is crucial for understanding price fluctuations, identifying trends, comparing performance of different stocks and enabling robust statistical analysis. 
 
@@ -16,8 +14,7 @@ We gather ticker prices by scraping Yahoo Finance using the `requests` package i
 
 For the nres data, we use the Finnhub Stock API, as well-structured, highly regarded financial API built around REST principles. Using an API key, we extract company news within a specified date range and collect information such as *Headline*, *Source*, *Summary*, and *URL*.
 
-## Preparation
-**Content**
+## Data Preparation
 
 - Data preprocessing steps, including cleaning, augmentation, and transformations.
 

@@ -1,13 +1,12 @@
 ---
-title: "Models and Technologies Used"
+title: "Models"
 format:
   html:
     toc: true
     embed-resources: true
 ---
 
-## Title
-**Content**
+
 
 - Discussion on the models utilized (LLMs, embedding models, classifiers, etc.).
 
@@ -15,7 +14,7 @@ format:
 
 - Any inference optimizations applied (e.g., quantization, distillation, multi-adapter swapping).
 
-
+## Technologies Used
 
 <br>
 <!-- Reference to next section -->

@@ -1,10 +1,9 @@
 ---
+title: Introduction
 format:
   html:
     embed-resources: true
 ---
-
-## Introduction
 
 Our Stock Market LLM Assistant will be designed to provide insights on stock market data using a multi-agent system. The application leverages data engineering and RAG (Retrieval-Augmented Generation) agents to automate data collection, processing, and query handling. The data agent gathers stock market data via APIs, and cleans and stores it using FAISS. The engineering agent generates visualizations, executes code, and documents processes. The RAG agent answers user queries, analyzes stock trends, compares tickers, and generates customized datasets and visualizations. Our fully-functioning generative AI model will be contained in a user-friendly application which offers an interactive and intuitive experience for users seeking stock market insights.
 

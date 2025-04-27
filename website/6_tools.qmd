@@ -1,13 +1,11 @@
 ---
-title: "Tools and Frameworks"
+title: "Tools"
 format:
   html:
     toc: true
     embed-resources: true
 ---
 
-## Title
-**Content**
 
 - Programming languages and frameworks used (e.g., Python, PyTorch, TensorFlow, Hugging Face, OpenAI API).
 
@@ -15,7 +13,7 @@ format:
 
 - Version control, CI/CD, or deployment considerations.
 
-
+## Frameworks
 
 <br>
 <!-- Reference to next section -->

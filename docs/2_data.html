@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Gen AI for Developers – data</title>
+<title>Gen AI for Developers - SData Sources</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -4467,6 +4467,7 @@ padding-top: 5px;
 padding-bottom: 5px;
 background-color: #2c3e50;
 border-radius: 8px;
+margin-top: 0px;
 }
 h3 {
 font-size: 20px;
@@ -4632,8 +4633,7 @@ width: 95%; margin-left: 0px; padding-left: 0px; }
     <h2 id="toc-title">Contents</h2>
    
   <ul>
-  <li><a href="#data-source" id="toc-data-source" class="nav-link active" data-scroll-target="#data-source">Data Source</a></li>
-  <li><a href="#preparation" id="toc-preparation" class="nav-link" data-scroll-target="#preparation">Preparation</a>
+  <li><a href="#data-preparation" id="toc-data-preparation" class="nav-link active" data-scroll-target="#data-preparation">Data Preparation</a>
   <ul class="collapse">
   <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References:</a></li>
   </ul></li>
@@ -4643,19 +4643,29 @@ width: 95%; margin-left: 0px; padding-left: 0px; }
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">SData Sources</h1>
+</div>
 
 
-<section id="data-source" class="level2">
-<h2 class="anchored" data-anchor-id="data-source">Data Source</h2>
-<p><strong>Content</strong></p>
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
 <p>For our Stock Market LLM Assistant project we selected data sources that directly align with the requirements of financial analysis and stock market insight generation. As the project focuses on stock market evaluation, our primary data source is stock price information from Yahoo Finance. This data is crucial for understanding price fluctuations, identifying trends, comparing performance of different stocks and enabling robust statistical analysis.</p>
 <p>To complement price data and provide users with deeper insights, we also included news data from the recent news section associated with each ticker on Yahoo Finance. This allows the Assistant justify its answers and produce more informed, complete financial evaluations.</p>
 <p>We gather ticker prices by scraping Yahoo Finance using the <code>requests</code> package in Python to retrieve detailed information such as <em>Trading Date</em>, <em>Open Price</em>, <em>High Price</em>, <em>Low Price</em>, <em>Close Price</em>, <em>Company Name</em>, among others.</p>
 <p>For the nres data, we use the Finnhub Stock API, as well-structured, highly regarded financial API built around REST principles. Using an API key, we extract company news within a specified date range and collect information such as <em>Headline</em>, <em>Source</em>, <em>Summary</em>, and <em>URL</em>.</p>
-</section>
-<section id="preparation" class="level2">
-<h2 class="anchored" data-anchor-id="preparation">Preparation</h2>
-<p><strong>Content</strong></p>
+<section id="data-preparation" class="level2">
+<h2 class="anchored" data-anchor-id="data-preparation">Data Preparation</h2>
 <ul>
 <li>Data preprocessing steps, including cleaning, augmentation, and transformations.</li>
 </ul>

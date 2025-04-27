@@ -6,8 +6,6 @@ format:
     embed-resources: true
 ---
 
-## Title
-**Content**
 
 - Metrics used for evaluation (e.g., BLEU, ROUGE, MRR, Precision/Recall for retrieval, perplexity for LLMs).
 

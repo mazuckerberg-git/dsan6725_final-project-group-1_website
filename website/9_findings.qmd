@@ -6,8 +6,6 @@ format:
     embed-resources: true
 ---
 
-## Title
-**Content**
 
 - Key takeaways from the project.
 

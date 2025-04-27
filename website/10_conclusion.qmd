@@ -6,9 +6,6 @@ format:
     embed-resources: true
 ---
 
-## Title
-**Content**
-
 - Summary of the project and its impact.
 
 - Limitations of the current implementation.
