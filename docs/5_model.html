@@ -4497,7 +4497,7 @@ text-decoration: none;
 text-decoration: underline;
 }
 .sidebar {
-width: 190px;
+width: 250px;
 display: block;
 }
 .sidebar a {
@@ -4682,7 +4682,10 @@ opacity: .6;
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#title" id="toc-title" class="nav-link active" data-scroll-target="#title">Title</a></li>
+  <li><a href="#title" id="toc-title" class="nav-link active" data-scroll-target="#title">Title</a>
+  <ul class="collapse">
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References:</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -4710,17 +4713,20 @@ opacity: .6;
 <h2 class="anchored" data-anchor-id="title">Title</h2>
 <p><strong>Content</strong></p>
 <ul>
-<li>Discussion on the models utilized (LLMs, embedding models, classifiers, etc.).</li>
-<li>Comparison of different models and justification for final choices.</li>
-<li>Any inference optimizations applied (e.g., quantization, distillation, multi-adapter swapping).</li>
+<li><p>Discussion on the models utilized (LLMs, embedding models, classifiers, etc.).</p></li>
+<li><p>Comparison of different models and justification for final choices.</p></li>
+<li><p>Any inference optimizations applied (e.g., quantization, distillation, multi-adapter swapping).</p></li>
 </ul>
-<p><strong>References:</strong></p>
-<p>[^1] <a href="https://python.langchain.com/docs/">LangChain</a></p>
-<p>[^2] <a href="https://huggingface.co/">Hugging Face</a></p>
-<p>[^3] <a href="https://www.bedrock.aws/">Bedrock</a></p>
-<p>[^4] <a href="https://python.langchain.com/docs/integrations/vectorstores/faiss/">FAISS</a></p>
+<hr>
+<section id="references" class="level3">
+<h3 class="anchored" data-anchor-id="references">References:</h3>
+<p>[1] <a href="https://python.langchain.com/docs/">LangChain</a></p>
+<p>[2] <a href="https://huggingface.co/">Hugging Face</a></p>
+<p>[3] <a href="https://www.bedrock.aws/">Bedrock</a></p>
+<p>[4] <a href="https://python.langchain.com/docs/integrations/vectorstores/faiss/">FAISS</a></p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

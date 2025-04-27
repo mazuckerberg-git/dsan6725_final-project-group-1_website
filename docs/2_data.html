@@ -4497,7 +4497,7 @@ text-decoration: none;
 text-decoration: underline;
 }
 .sidebar {
-width: 190px;
+width: 250px;
 display: block;
 }
 .sidebar a {
@@ -4683,7 +4683,10 @@ opacity: .6;
    
   <ul>
   <li><a href="#data-source" id="toc-data-source" class="nav-link active" data-scroll-target="#data-source">Data Source</a></li>
-  <li><a href="#preparation" id="toc-preparation" class="nav-link" data-scroll-target="#preparation">Preparation</a></li>
+  <li><a href="#preparation" id="toc-preparation" class="nav-link" data-scroll-target="#preparation">Preparation</a>
+  <ul class="collapse">
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References:</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -4711,8 +4714,8 @@ opacity: .6;
 <h2 class="anchored" data-anchor-id="data-source">Data Source</h2>
 <p><strong>Content</strong></p>
 <ul>
-<li>Description of the data sources used (public datasets, proprietary data, scraped data, etc.).</li>
-<li>Justification for data selection and preprocessing choices.</li>
+<li><p>Description of the data sources used (public datasets, proprietary data, scraped data, etc.).</p></li>
+<li><p>Justification for data selection and preprocessing choices.</p></li>
 </ul>
 </section>
 <section id="preparation" class="level2">
@@ -4721,11 +4724,14 @@ opacity: .6;
 <ul>
 <li>Data preprocessing steps, including cleaning, augmentation, and transformations.</li>
 </ul>
-<p><strong>References:</strong></p>
-<p>[^1] <a href="https://github.com/finnhubio/Finnhub-API">Finnhub-API</a></p>
-<p>[^2] <a href="https://finance.yahoo.com">Yahoo Finance</a></p>
+<hr>
+<section id="references" class="level3">
+<h3 class="anchored" data-anchor-id="references">References:</h3>
+<p>[1] <a href="https://github.com/finnhubio/Finnhub-API">Finnhub-API</a></p>
+<p>[2] <a href="https://finance.yahoo.com">Yahoo Finance</a></p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

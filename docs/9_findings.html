@@ -4497,7 +4497,7 @@ text-decoration: none;
 text-decoration: underline;
 }
 .sidebar {
-width: 190px;
+width: 250px;
 display: block;
 }
 .sidebar a {
@@ -4682,7 +4682,10 @@ opacity: .6;
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#title" id="toc-title" class="nav-link active" data-scroll-target="#title">Title</a></li>
+  <li><a href="#title" id="toc-title" class="nav-link active" data-scroll-target="#title">Title</a>
+  <ul class="collapse">
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References:</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -4710,12 +4713,17 @@ opacity: .6;
 <h2 class="anchored" data-anchor-id="title">Title</h2>
 <p><strong>Content</strong></p>
 <ul>
-<li>Key takeaways from the project.</li>
-<li>Unexpected challenges and how they were addressed.</li>
-<li>Performance trade-offs and scalability considerations.</li>
+<li><p>Key takeaways from the project.</p></li>
+<li><p>Unexpected challenges and how they were addressed.</p></li>
+<li><p>Performance trade-offs and scalability considerations.</p></li>
 </ul>
+<hr>
+<section id="references" class="level3">
+<h3 class="anchored" data-anchor-id="references">References:</h3>
+<p>[1]</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
