@@ -51,7 +51,7 @@ h6 {
 
 /* Adjust the width of the sidebar to prevent text wrapping */
 .sidebar {
-    width: 300px; /* Increase the width to accommodate longer titles */
+    width: 320px; /* Increase the width to accommodate longer titles */
     overflow: hidden; /* Ensure no unwanted overflow */
     white-space: nowrap; /* Prevent text wrapping */
 }

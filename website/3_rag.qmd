@@ -20,7 +20,7 @@ The RAG system is able to provide a cohesive answer, either directly based on th
 
 
 <!-- Reference to next section -->
-<div style="text-align: right;">
+<div style="text-align: right; font-size: 12px;">
   <a href="2_data.html">Next Section: AI Agents</a>
 </div>
 

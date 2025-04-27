@@ -19,7 +19,7 @@ format:
 
 
 <!-- Reference to next section -->
-<div style="text-align: right;">
+<div style="text-align: right; font-size: 12px;">
   <a href="2_data.html">Next Section: Findings and Insights</a>
 </div>
 

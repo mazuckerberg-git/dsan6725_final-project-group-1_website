@@ -41,5 +41,5 @@ website:
 format:
   html:
     theme: Flatly
-    styles: styles.css
+    style: styles.css
     toc: true

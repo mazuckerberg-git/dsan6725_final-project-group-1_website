@@ -16,7 +16,7 @@ format:
 - Version control, CI/CD, or deployment considerations.
 
 <!-- Reference to next section -->
-<div style="text-align: right;">
+<div style="text-align: right; font-size: 12px;">
   <a href="2_data.html">Next Section: "Evaluation of Effectiveness</a>
 </div>
 
