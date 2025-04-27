@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Gen AI for Developers - Data Source</title>
+<title>Gen AI for Developers – data</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -4643,30 +4643,15 @@ width: 95%; margin-left: 0px; padding-left: 0px; }
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Data Source</h1>
-</div>
 
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
-
-</header>
 
 <section id="data-source" class="level2">
 <h2 class="anchored" data-anchor-id="data-source">Data Source</h2>
 <p><strong>Content</strong></p>
-<ul>
-<li><p>Description of the data sources used (public datasets, proprietary data, scraped data, etc.).</p></li>
-<li><p>Justification for data selection and preprocessing choices.</p></li>
-</ul>
+<p>For our Stock Market LLM Assistant project we selected data sources that directly align with the requirements of financial analysis and stock market insight generation. As the project focuses on stock market evaluation, our primary data source is stock price information from Yahoo Finance. This data is crucial for understanding price fluctuations, identifying trends, comparing performance of different stocks and enabling robust statistical analysis.</p>
+<p>To complement price data and provide users with deeper insights, we also included news data from the recent news section associated with each ticker on Yahoo Finance. This allows the Assistant justify its answers and produce more informed, complete financial evaluations.</p>
+<p>We gather ticker prices by scraping Yahoo Finance using the <code>requests</code> package in Python to retrieve detailed information such as <em>Trading Date</em>, <em>Open Price</em>, <em>High Price</em>, <em>Low Price</em>, <em>Close Price</em>, <em>Company Name</em>, among others.</p>
+<p>For the nres data, we use the Finnhub Stock API, as well-structured, highly regarded financial API built around REST principles. Using an API key, we extract company news within a specified date range and collect information such as <em>Headline</em>, <em>Source</em>, <em>Summary</em>, and <em>URL</em>.</p>
 </section>
 <section id="preparation" class="level2">
 <h2 class="anchored" data-anchor-id="preparation">Preparation</h2>
