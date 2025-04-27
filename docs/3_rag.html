@@ -4451,6 +4451,65 @@ vertical-align: -.125em;
   </script>
 
 
+<style type="text/css">h1, h2, h3, h4, h5, h6 {
+font-family: Arial, sans-serif;
+text-align: left;
+}
+h1 {
+font-size: 30px;
+border-bottom: 1px solid #2c3e50;
+}
+h2 {
+font-size: 25px;
+color: #FFFFFF;
+padding-left: 10px;
+padding-top: 5px;
+padding-bottom: 5px;
+background-color: #2c3e50;
+border-radius: 8px;
+}
+h3 {
+font-size: 20px;
+color: #2c3e50;
+background-color: transparent;
+border-radius: 6px;
+}
+h4 {
+font-size: 18px;
+color: #333333;
+background-color: transparent;
+border-radius: 5px;
+border: 1px solid #2c3e50;
+}
+h5 {
+font-size: 16px;
+color: #555555;
+background-color: transparent;
+font-weight: bold;
+border-bottom: 2px solid #2c3e50;
+}
+h6 {
+font-size: 14px;
+color: #777777;
+background-color: transparent;
+font-style: italic;
+border-left: 4px solid #2c3e50;
+}
+body {
+width: 100%;
+}
+main {
+margin-left: 35px; margin-right: 10px;
+padding: 1rem; }
+
+#quarto-sidebar{
+width: 115%; padding-left: 15px; margin-left: 0px; overflow: hidden;
+white-space: nowrap;
+}
+
+#quarto-margin-sidebar{
+width: 95%; margin-left: 0px; padding-left: 0px; }
+</style>
 </head>
 
 <body class="nav-sidebar docked nav-fixed">
@@ -4570,7 +4629,7 @@ vertical-align: -.125em;
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
+    <h2 id="toc-title">Contents</h2>
    
   <ul>
   <li><a href="#title" id="toc-title" class="nav-link active" data-scroll-target="#title">Title</a>
@@ -4606,8 +4665,8 @@ vertical-align: -.125em;
 <p>The RAG system is built using the LangChain framework, which allows us to easily integrate various components such as the vectorstore, retriever, and LLM. The vectorstore was created using FAISS, a popular library for efficient similarity search and clustering of dense vectors. The embeddings used to create the vectorstore were generated from Hugging Face’s <code>intfloat/e5-small-v2</code> model, which is lightweight and efficient with both semantic understanding and numeric retrieval capabilities. Our retriever is uses the maximum marginal relevance (MMR) algorithm to ensure that the retrieved documents are both relevant and diverse, which is crucial for providing comprehensive answers to user queries. Additionally, we have set k in the retriever to 30 since we found the RAG to suffer in retrieving the correct documents when k was lower, mainly due to the fact the RAG struggles with filtering data by specific dates and names. Lastly, the LLM used for answer generation is Claude 3.5 Sonnet from Anthropic, which is a state-of-the-art model known for its reasoning capabilities and ability to generate coherent and contextually relevant responses with being too wordy.</p>
 <p>When it came to creating the structure of the RAG, we also need to take into consideration the chat history and how to best utilize it. We decided that rather than creating a RAG chain, we would seperate it by question answer chain and document retrieval. We first combine the user query and the chat history into a single string, which is then passed to the retriever to find the most relevant documents. The retrieved documents are then passed to the question answer chain, (made up of the llm, system prompt, and documents) to generate a response. This approach allows us to maintain the context of the conversation while ensuring that the RAG system can effectively retrieve and utilize the most relevant information.</p>
 <p>The RAG system is able to provide a cohesive answer, either directly based on the retrived documents or a statement that not enough data was found, back to the supervisor agent to be sent to the user. The system is build such that the supervisor agent simple transfers the RAG’s output to the user instead of augmenting any additonal details to avoid any type of hallucination.</p>
-<!-- Reference to next section -->
-<div style="text-align: right; font-size: 12px;">
+<br> <!-- Reference to next section -->
+<div style="text-align: right; font-size: 14px;">
 <p><a href="2_data.html">Next Section: AI Agents</a></p>
 </div>
 <hr>

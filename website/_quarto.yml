@@ -41,5 +41,6 @@ website:
 format:
   html:
     theme: Flatly
-    style: styles.css
+    css: styles.css
     toc: true
+    toc-title: Contents

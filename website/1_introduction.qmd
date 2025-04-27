@@ -2,7 +2,6 @@
 title: "Introduction"
 format:
   html:
-    toc: true
     embed-resources: true
 ---
 
@@ -33,8 +32,10 @@ Main points
 - Question 3
 
 
+
+<br>
 <!-- Reference to next section -->
-<div style="text-align: right; font-size: 12px;">
+<div style="text-align: right; font-size: 14px;">
   <a href="2_data.html">Next Section: Data Sources and Preparation</a>
 </div>
 

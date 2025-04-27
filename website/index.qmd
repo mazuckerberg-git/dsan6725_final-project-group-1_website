@@ -1,52 +1,22 @@
 ---
-title: ""
 embed-resources: true
 ---
+```{=html}
+<div style="width: 100%; margin-left: 80px; margin-top: 0px; margin-right: 0px; text-align: center;">
+    <div style="margin-top: 0px; margin-right: 15px;">
+        <a href="https://analytics.georgetown.edu/?gclid=Cj0KCQjw06-oBhC6ARIsAGuzdw2b8lno5S_FrqNrX38C02mnTq05xgDy5yRhACR6s6sf4_ynWWezrFEaAhezEALw_wcB"> 
+            <img src="../images/georgetown_logo.png" width="200"/> 
+        </a> 
+    </div>
 
-::: {style="width: 80%; margin: 0 auto; text-align: center;"}
-<!-- <p align="center"> --> <a href="https://analytics.georgetown.edu/?gclid=Cj0KCQjw06-oBhC6ARIsAGuzdw2b8lno5S_FrqNrX38C02mnTq05xgDy5yRhACR6s6sf4_ynWWezrFEaAhezEALw_wcB"> <img src="../images/georgetown_logo.png" width="200"/> </a> <!-- </p> -->
+    <p style="margin-top: 30px; text-align: center; font-size: 18px; border-bottom: 1px solid #2c3e50; color: #2c3e50;">
+        M.S. in Data Science and Analytics
+    </p>
 
-<br>
-
-<h5 style="text-align:center;">
-
-M.S. in Data Science and Analytics
-
-</h5>
-
-<br>
-
-<h3 style="text-align:center;">
-
-Applied Generative AI for Developers
-
-</h3>
-
-<h3 style="text-align:center;">
-
-Final Project
-
-</h3>
-
-<br>
-
-<h1 style="text-align:center;">
-
-Speeding up Stock Market Insights with Generative AI
-
-</h1>
-
-<p align="center">
-
-A Multi-Agent System for Stock Market Analysis
-
-</p>
-
-<br>
-
-<p style="text-align:center;">
-
-By: Shriya Chinthak and Maria Agustina Zuckerberg
-
-</p>
-:::
+    <h3 style="margin-top: 50px; text-align: center;">Applied Generative AI for Developers</h3>
+    <p style="text-align: center; font-size: 18px;">Final Project</p>
+    <h1 style="margin-top: 60px; text-align: center;">Speeding up Stock Market Insights with Generative AI</h1>
+    <p style="text-align: center; font-size: 22px;">A Multi-Agent System for Stock Market Analysis</p>
+    <p style="margin-top: 80px; margin-bottom: 0px; text-align: center; font-size: 15px;">By: Shriya Chinthak and Maria Agustina Zuckerberg</p>
+</div>
+```
