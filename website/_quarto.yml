@@ -30,7 +30,7 @@ website:
       - text: Tools and Frameworks
         href: 6_tools.html
       - text: Evaluation of Effectiveness
-        href: 7_evaluation.html
+        href: 7_evaluations.html
       - text: Responsible AI Considerations
         href: 8_AI_considerations.html
       - text: Findings and Insights
@@ -41,4 +41,5 @@ website:
 format:
   html:
     theme: Flatly
+    styles: styles.css
     toc: true

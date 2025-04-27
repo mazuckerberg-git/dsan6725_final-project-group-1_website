@@ -12,9 +12,9 @@ quarto render website/1_introduction.qmd
 quarto render website/2_data.qmd
 quarto render website/3_rag.qmd
 quarto render website/4_agents.qmd
-quarto render website/5_models.qmd
+quarto render website/5_model.qmd
 quarto render website/6_tools.qmd
-quarto render website/7_evaluation.qmd
+quarto render website/7_evaluations.qmd
 quarto render website/8_AI_considerations.qmd
 quarto render website/9_findings.qmd
 quarto render website/10_conclusion.qmd
