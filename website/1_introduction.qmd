@@ -31,6 +31,4 @@ Main points
 
 **References:**
 
-[1] [Finnhub-API](https://github.com/finnhubio/Finnhub-API)
-
-[2] Gamage, P. (2026). Applied Time Series for Data Science.
+[^1] Gamage, P. (2026). Applied Time Series for Data Science.

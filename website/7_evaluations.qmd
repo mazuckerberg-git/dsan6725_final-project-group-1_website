@@ -12,3 +12,7 @@ format:
 - Metrics used for evaluation (e.g., BLEU, ROUGE, MRR, Precision/Recall for retrieval, perplexity for LLMs).
 - Benchmarking comparisons against baselines.
 - User studies, feedback, or qualitative assessments.
+
+**References:**
+
+[^1] [Ragas](https://docs.ragas.io/en/stable/)
