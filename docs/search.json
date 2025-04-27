@@ -44,21 +44,21 @@
   {
     "objectID": "2_data.html",
     "href": "2_data.html",
-    "title": "Data Source",
+    "title": "Gen AI for Developers",
     "section": "",
-    "text": "Content\n\nDescription of the data sources used (public datasets, proprietary data, scraped data, etc.).\nJustification for data selection and preprocessing choices."
+    "text": "Content\nFor our Stock Market LLM Assistant project we selected data sources that directly align with the requirements of financial analysis and stock market insight generation. As the project focuses on stock market evaluation, our primary data source is stock price information from Yahoo Finance. This data is crucial for understanding price fluctuations, identifying trends, comparing performance of different stocks and enabling robust statistical analysis.\nTo complement price data and provide users with deeper insights, we also included news data from the recent news section associated with each ticker on Yahoo Finance. This allows the Assistant justify its answers and produce more informed, complete financial evaluations.\nWe gather ticker prices by scraping Yahoo Finance using the requests package in Python to retrieve detailed information such as Trading Date, Open Price, High Price, Low Price, Close Price, Company Name, among others.\nFor the nres data, we use the Finnhub Stock API, as well-structured, highly regarded financial API built around REST principles. Using an API key, we extract company news within a specified date range and collect information such as Headline, Source, Summary, and URL."
   },
   {
     "objectID": "2_data.html#data-source",
     "href": "2_data.html#data-source",
-    "title": "Data Source",
+    "title": "Gen AI for Developers",
     "section": "",
-    "text": "Content\n\nDescription of the data sources used (public datasets, proprietary data, scraped data, etc.).\nJustification for data selection and preprocessing choices."
+    "text": "Content\nFor our Stock Market LLM Assistant project we selected data sources that directly align with the requirements of financial analysis and stock market insight generation. As the project focuses on stock market evaluation, our primary data source is stock price information from Yahoo Finance. This data is crucial for understanding price fluctuations, identifying trends, comparing performance of different stocks and enabling robust statistical analysis.\nTo complement price data and provide users with deeper insights, we also included news data from the recent news section associated with each ticker on Yahoo Finance. This allows the Assistant justify its answers and produce more informed, complete financial evaluations.\nWe gather ticker prices by scraping Yahoo Finance using the requests package in Python to retrieve detailed information such as Trading Date, Open Price, High Price, Low Price, Close Price, Company Name, among others.\nFor the nres data, we use the Finnhub Stock API, as well-structured, highly regarded financial API built around REST principles. Using an API key, we extract company news within a specified date range and collect information such as Headline, Source, Summary, and URL."
   },
   {
     "objectID": "2_data.html#preparation",
     "href": "2_data.html#preparation",
-    "title": "Data Source",
+    "title": "Gen AI for Developers",
     "section": "Preparation",
     "text": "Preparation\nContent\n\nData preprocessing steps, including cleaning, augmentation, and transformations.\n\n \n\nNext Section: Retrieval-Augmented Generation (RAG)\n\n\n\nReferences:\n\\({^1}\\) Finnhub-API\n\\({^2}\\) Yahoo Finance"
   },
@@ -107,23 +107,16 @@
   {
     "objectID": "1_introduction.html",
     "href": "1_introduction.html",
-    "title": "Introduction",
+    "title": "Gen AI for Developers",
     "section": "",
-    "text": "Overview of the problem being addressed.\nMotivation for choosing this problem and its relevance in the field of Generative AI.\nResearch questions or hypotheses (if applicable).\n\n\nOur Stock Market LLM Assistant will be designed to provide insights on stock market data using a multi-agent system. The application leverages data engineering and RAG (Retrieval-Augmented Generation) agents to automate data collection, processing, and query handling. The data agent gathers stock market data via APIs, and cleans and stores it using FAISS. The engineering agent generates visualizations, executes code, and documents processes. The RAG agent answers user queries, analyzes stock trends, compares tickers, and generates customized datasets and visualizations. Our fully-functioning generative AI model will be contained in a user-friendly application which offers an interactive and intuitive experience for users seeking stock market insights.\nOur goal for this assistant is to create an application that is accessible to a wide range of users; from novice investors to experienced traders. The streamlit interface acts like a chat bot that allows users to ask questions about stock market data and receive real-time insights. Automated report generation, especially in finance, is a powerful and needed tool in the corporate world right now and we believe this project to serve as a stepping stone into more sophisticated iterations in the future for others to build upon."
+    "text": "Our Stock Market LLM Assistant will be designed to provide insights on stock market data using a multi-agent system. The application leverages data engineering and RAG (Retrieval-Augmented Generation) agents to automate data collection, processing, and query handling. The data agent gathers stock market data via APIs, and cleans and stores it using FAISS. The engineering agent generates visualizations, executes code, and documents processes. The RAG agent answers user queries, analyzes stock trends, compares tickers, and generates customized datasets and visualizations. Our fully-functioning generative AI model will be contained in a user-friendly application which offers an interactive and intuitive experience for users seeking stock market insights.\nOur goal for this assistant is to create an application that is accessible to a wide range of users; from novice investors to experienced traders. The streamlit interface acts like a chat bot that allows users to ask questions about stock market data and receive real-time insights. Automated report generation, especially in finance, is a powerful and needed tool in the corporate world right now and we believe this project to serve as a stepping stone into more sophisticated iterations in the future for others to build upon.\n \n\nNext Section: Data Sources and Preparation\n\n\n\n\n\\({^1}\\) Gamage, P. (2026). Applied Time Series for Data Science."
   },
   {
     "objectID": "1_introduction.html#introduction",
     "href": "1_introduction.html#introduction",
-    "title": "Introduction",
+    "title": "Gen AI for Developers",
     "section": "",
-    "text": "Overview of the problem being addressed.\nMotivation for choosing this problem and its relevance in the field of Generative AI.\nResearch questions or hypotheses (if applicable).\n\n\nOur Stock Market LLM Assistant will be designed to provide insights on stock market data using a multi-agent system. The application leverages data engineering and RAG (Retrieval-Augmented Generation) agents to automate data collection, processing, and query handling. The data agent gathers stock market data via APIs, and cleans and stores it using FAISS. The engineering agent generates visualizations, executes code, and documents processes. The RAG agent answers user queries, analyzes stock trends, compares tickers, and generates customized datasets and visualizations. Our fully-functioning generative AI model will be contained in a user-friendly application which offers an interactive and intuitive experience for users seeking stock market insights.\nOur goal for this assistant is to create an application that is accessible to a wide range of users; from novice investors to experienced traders. The streamlit interface acts like a chat bot that allows users to ask questions about stock market data and receive real-time insights. Automated report generation, especially in finance, is a powerful and needed tool in the corporate world right now and we believe this project to serve as a stepping stone into more sophisticated iterations in the future for others to build upon."
-  },
-  {
-    "objectID": "1_introduction.html#points-of-analysis",
-    "href": "1_introduction.html#points-of-analysis",
-    "title": "Introduction",
-    "section": "Points of Analysis",
-    "text": "Points of Analysis\nMain points\n\nData Science Question\nQuestion\n\n\nData Question\n\nQuestion 1\nQuestion 2\nQuestion 3\n\n \n\nNext Section: Data Sources and Preparation\n\n\n\n\nReferences:\n\\({^1}\\) Gamage, P. (2026). Applied Time Series for Data Science."
+    "text": "Our Stock Market LLM Assistant will be designed to provide insights on stock market data using a multi-agent system. The application leverages data engineering and RAG (Retrieval-Augmented Generation) agents to automate data collection, processing, and query handling. The data agent gathers stock market data via APIs, and cleans and stores it using FAISS. The engineering agent generates visualizations, executes code, and documents processes. The RAG agent answers user queries, analyzes stock trends, compares tickers, and generates customized datasets and visualizations. Our fully-functioning generative AI model will be contained in a user-friendly application which offers an interactive and intuitive experience for users seeking stock market insights.\nOur goal for this assistant is to create an application that is accessible to a wide range of users; from novice investors to experienced traders. The streamlit interface acts like a chat bot that allows users to ask questions about stock market data and receive real-time insights. Automated report generation, especially in finance, is a powerful and needed tool in the corporate world right now and we believe this project to serve as a stepping stone into more sophisticated iterations in the future for others to build upon.\n \n\nNext Section: Data Sources and Preparation\n\n\n\n\n\\({^1}\\) Gamage, P. (2026). Applied Time Series for Data Science."
   },
   {
     "objectID": "index.html",
