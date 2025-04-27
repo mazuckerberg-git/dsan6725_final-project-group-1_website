@@ -15,8 +15,13 @@ format:
  
 - Performance trade-offs and scalability considerations.
 
+<!-- Reference to next section -->
+<div style="text-align: right;">
+  <a href="2_data.html">Next Section: Conclusion and Future Work</a>
+</div>
+
 ---
 
 ### References:
 
-[1]
+${^1}$

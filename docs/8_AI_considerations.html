@@ -4439,6 +4439,17 @@ vertical-align: -.125em;
   }
 }</script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  
+  <script>
+    (function () {
+      var script = document.createElement("script");
+      script.type = "text/javascript";
+      script.src  = "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js";
+      document.getElementsByTagName("head")[0].appendChild(script);
+    })();
+  </script>
+
 
 </head>
 
@@ -4598,10 +4609,14 @@ vertical-align: -.125em;
 <li><p>Privacy considerations (e.g., PII removal, data anonymization).</p></li>
 <li><p>Model safety measures and ethical implications.</p></li>
 </ul>
+<!-- Reference to next section -->
+<div style="text-align: right;">
+<p><a href="2_data.html">Next Section: Findings and Insights</a></p>
+</div>
 <hr>
 <section id="references" class="level3">
 <h3 class="anchored" data-anchor-id="references">References:</h3>
-<p>[1]</p>
+<p><span class="math inline">\({^1}\)</span></p>
 
 
 </section>

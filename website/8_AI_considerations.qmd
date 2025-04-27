@@ -17,8 +17,14 @@ format:
 
 - Model safety measures and ethical implications.
 
+
+<!-- Reference to next section -->
+<div style="text-align: right;">
+  <a href="2_data.html">Next Section: Findings and Insights</a>
+</div>
+
 ---
 
 ### References:
 
-[1]
+${^1}$

@@ -4,42 +4,42 @@
     "href": "8_AI_considerations.html",
     "title": "Responsible AI Considerations",
     "section": "",
-    "text": "Content\n\nBias and fairness checks conducted.\nAny measures taken to reduce hallucinations and ensure factual consistency.\nPrivacy considerations (e.g., PII removal, data anonymization).\nModel safety measures and ethical implications.\n\n\n\n\n[1]"
+    "text": "Content\n\nBias and fairness checks conducted.\nAny measures taken to reduce hallucinations and ensure factual consistency.\nPrivacy considerations (e.g., PII removal, data anonymization).\nModel safety measures and ethical implications.\n\n\n\nNext Section: Findings and Insights\n\n\n\n\n\\({^1}\\)"
   },
   {
     "objectID": "8_AI_considerations.html#title",
     "href": "8_AI_considerations.html#title",
     "title": "Responsible AI Considerations",
     "section": "",
-    "text": "Content\n\nBias and fairness checks conducted.\nAny measures taken to reduce hallucinations and ensure factual consistency.\nPrivacy considerations (e.g., PII removal, data anonymization).\nModel safety measures and ethical implications.\n\n\n\n\n[1]"
+    "text": "Content\n\nBias and fairness checks conducted.\nAny measures taken to reduce hallucinations and ensure factual consistency.\nPrivacy considerations (e.g., PII removal, data anonymization).\nModel safety measures and ethical implications.\n\n\n\nNext Section: Findings and Insights\n\n\n\n\n\\({^1}\\)"
   },
   {
     "objectID": "9_findings.html",
     "href": "9_findings.html",
     "title": "Findings and Insights",
     "section": "",
-    "text": "Content\n\nKey takeaways from the project.\nUnexpected challenges and how they were addressed.\nPerformance trade-offs and scalability considerations.\n\n\n\n\n[1]"
+    "text": "Content\n\nKey takeaways from the project.\nUnexpected challenges and how they were addressed.\nPerformance trade-offs and scalability considerations.\n\n\n\nNext Section: Conclusion and Future Work\n\n\n\n\n\\({^1}\\)"
   },
   {
     "objectID": "9_findings.html#title",
     "href": "9_findings.html#title",
     "title": "Findings and Insights",
     "section": "",
-    "text": "Content\n\nKey takeaways from the project.\nUnexpected challenges and how they were addressed.\nPerformance trade-offs and scalability considerations.\n\n\n\n\n[1]"
+    "text": "Content\n\nKey takeaways from the project.\nUnexpected challenges and how they were addressed.\nPerformance trade-offs and scalability considerations.\n\n\n\nNext Section: Conclusion and Future Work\n\n\n\n\n\\({^1}\\)"
   },
   {
     "objectID": "7_evaluations.html",
     "href": "7_evaluations.html",
     "title": "Evaluation of Effectiveness",
     "section": "",
-    "text": "Content\n\nMetrics used for evaluation (e.g., BLEU, ROUGE, MRR, Precision/Recall for retrieval, perplexity for LLMs).\nBenchmarking comparisons against baselines.\nUser studies, feedback, or qualitative assessments.\n\n\n\n\n[1] Ragas"
+    "text": "Content\n\nMetrics used for evaluation (e.g., BLEU, ROUGE, MRR, Precision/Recall for retrieval, perplexity for LLMs).\nBenchmarking comparisons against baselines.\nUser studies, feedback, or qualitative assessments.\n\n\n\nNext Section: Responsible AI Considerations\n\n\n\n\n\\({^1}\\) Ragas"
   },
   {
     "objectID": "7_evaluations.html#title",
     "href": "7_evaluations.html#title",
     "title": "Evaluation of Effectiveness",
     "section": "",
-    "text": "Content\n\nMetrics used for evaluation (e.g., BLEU, ROUGE, MRR, Precision/Recall for retrieval, perplexity for LLMs).\nBenchmarking comparisons against baselines.\nUser studies, feedback, or qualitative assessments.\n\n\n\n\n[1] Ragas"
+    "text": "Content\n\nMetrics used for evaluation (e.g., BLEU, ROUGE, MRR, Precision/Recall for retrieval, perplexity for LLMs).\nBenchmarking comparisons against baselines.\nUser studies, feedback, or qualitative assessments.\n\n\n\nNext Section: Responsible AI Considerations\n\n\n\n\n\\({^1}\\) Ragas"
   },
   {
     "objectID": "2_data.html",
@@ -60,7 +60,7 @@
     "href": "2_data.html#preparation",
     "title": "Data Source",
     "section": "Preparation",
-    "text": "Preparation\nContent\n\nData preprocessing steps, including cleaning, augmentation, and transformations.\n\n\n\nReferences:\n[1] Finnhub-API\n[2] Yahoo Finance"
+    "text": "Preparation\nContent\n\nData preprocessing steps, including cleaning, augmentation, and transformations.\n\n\n\nNext Section: Retrieval-Augmented Generation (RAG)\n\n\n\nReferences:\n\\({^1}\\) Finnhub-API\n\\({^2}\\) Yahoo Finance"
   },
   {
     "objectID": "10_conclusion.html",
@@ -81,28 +81,28 @@
     "href": "6_tools.html",
     "title": "Tools and Frameworks",
     "section": "",
-    "text": "Content\n\nProgramming languages and frameworks used (e.g., Python, PyTorch, TensorFlow, Hugging Face, OpenAI API).\nCloud platforms and any relevant services (e.g., Amazon Bedrock, Amazon SageMaker, Vector DBs like FAISS), open-source (e.g. LangChain).\nVersion control, CI/CD, or deployment considerations.\n\n\n\n\n[1]"
+    "text": "Content\n\nProgramming languages and frameworks used (e.g., Python, PyTorch, TensorFlow, Hugging Face, OpenAI API).\nCloud platforms and any relevant services (e.g., Amazon Bedrock, Amazon SageMaker, Vector DBs like FAISS), open-source (e.g. LangChain).\nVersion control, CI/CD, or deployment considerations.\n\n\n\nNext Section: “Evaluation of Effectiveness\n\n\n\n\n\\({^1}\\)"
   },
   {
     "objectID": "6_tools.html#title",
     "href": "6_tools.html#title",
     "title": "Tools and Frameworks",
     "section": "",
-    "text": "Content\n\nProgramming languages and frameworks used (e.g., Python, PyTorch, TensorFlow, Hugging Face, OpenAI API).\nCloud platforms and any relevant services (e.g., Amazon Bedrock, Amazon SageMaker, Vector DBs like FAISS), open-source (e.g. LangChain).\nVersion control, CI/CD, or deployment considerations.\n\n\n\n\n[1]"
+    "text": "Content\n\nProgramming languages and frameworks used (e.g., Python, PyTorch, TensorFlow, Hugging Face, OpenAI API).\nCloud platforms and any relevant services (e.g., Amazon Bedrock, Amazon SageMaker, Vector DBs like FAISS), open-source (e.g. LangChain).\nVersion control, CI/CD, or deployment considerations.\n\n\n\nNext Section: “Evaluation of Effectiveness\n\n\n\n\n\\({^1}\\)"
   },
   {
     "objectID": "3_rag.html",
     "href": "3_rag.html",
     "title": "Retrieval-Augmented Generation (RAG)",
     "section": "",
-    "text": "Within our multi-agent pipeline, we have implemented a Retrieval-Augmented Generation (RAG) system to act as the question-answering portion of the application. The RAG system is designed to read the user’s query, retrieve the sources needed in the vectorstore to answer the question, and consolidate the sources to provide an accurate answer. This is especially important for stock market data, as the information is constantly changing, includes exact values, and is often time-sensitive. With a RAG we’re able to avoid any type of hallucination and provide the most accurate and up-to-date information to the user.\nThe RAG system is built using the LangChain framework, which allows us to easily integrate various components such as the vectorstore, retriever, and LLM. The vectorstore was created using FAISS, a popular library for efficient similarity search and clustering of dense vectors. The embeddings used to create the vectorstore were generated from Hugging Face’s intfloat/e5-small-v2 model, which is lightweight and efficient with both semantic understanding and numeric retrieval capabilities. Our retriever is uses the maximum marginal relevance (MMR) algorithm to ensure that the retrieved documents are both relevant and diverse, which is crucial for providing comprehensive answers to user queries. Additionally, we have set k in the retriever to 30 since we found the RAG to suffer in retrieving the correct documents when k was lower, mainly due to the fact the RAG struggles with filtering data by specific dates and names. Lastly, the LLM used for answer generation is Claude 3.5 Sonnet from Anthropic, which is a state-of-the-art model known for its reasoning capabilities and ability to generate coherent and contextually relevant responses with being too wordy.\nWhen it came to creating the structure of the RAG, we also need to take into consideration the chat history and how to best utilize it. We decided that rather than creating a RAG chain, we would seperate it by question answer chain and document retrieval. We first combine the user query and the chat history into a single string, which is then passed to the retriever to find the most relevant documents. The retrieved documents are then passed to the question answer chain, (made up of the llm, system prompt, and documents) to generate a response. This approach allows us to maintain the context of the conversation while ensuring that the RAG system can effectively retrieve and utilize the most relevant information.\nThe RAG system is able to provide a cohesive answer, either directly based on the retrived documents or a statement that not enough data was found, back to the supervisor agent to be sent to the user. The system is build such that the supervisor agent simple transfers the RAG’s output to the user instead of augmenting any additonal details to avoid any type of hallucination.\n\n\n\n[1] LangChain\n[2] Hugging Face\n[3] FAISS"
+    "text": "Within our multi-agent pipeline, we have implemented a Retrieval-Augmented Generation (RAG) system to act as the question-answering portion of the application. The RAG system is designed to read the user’s query, retrieve the sources needed in the vectorstore to answer the question, and consolidate the sources to provide an accurate answer. This is especially important for stock market data, as the information is constantly changing, includes exact values, and is often time-sensitive. With a RAG we’re able to avoid any type of hallucination and provide the most accurate and up-to-date information to the user.\nThe RAG system is built using the LangChain framework, which allows us to easily integrate various components such as the vectorstore, retriever, and LLM. The vectorstore was created using FAISS, a popular library for efficient similarity search and clustering of dense vectors. The embeddings used to create the vectorstore were generated from Hugging Face’s intfloat/e5-small-v2 model, which is lightweight and efficient with both semantic understanding and numeric retrieval capabilities. Our retriever is uses the maximum marginal relevance (MMR) algorithm to ensure that the retrieved documents are both relevant and diverse, which is crucial for providing comprehensive answers to user queries. Additionally, we have set k in the retriever to 30 since we found the RAG to suffer in retrieving the correct documents when k was lower, mainly due to the fact the RAG struggles with filtering data by specific dates and names. Lastly, the LLM used for answer generation is Claude 3.5 Sonnet from Anthropic, which is a state-of-the-art model known for its reasoning capabilities and ability to generate coherent and contextually relevant responses with being too wordy.\nWhen it came to creating the structure of the RAG, we also need to take into consideration the chat history and how to best utilize it. We decided that rather than creating a RAG chain, we would seperate it by question answer chain and document retrieval. We first combine the user query and the chat history into a single string, which is then passed to the retriever to find the most relevant documents. The retrieved documents are then passed to the question answer chain, (made up of the llm, system prompt, and documents) to generate a response. This approach allows us to maintain the context of the conversation while ensuring that the RAG system can effectively retrieve and utilize the most relevant information.\nThe RAG system is able to provide a cohesive answer, either directly based on the retrived documents or a statement that not enough data was found, back to the supervisor agent to be sent to the user. The system is build such that the supervisor agent simple transfers the RAG’s output to the user instead of augmenting any additonal details to avoid any type of hallucination.\n\n\nNext Section: AI Agents\n\n\n\n\n\\({^1}\\) LangChain\n\\({^2}\\) Hugging Face\n\\({^3}\\) FAISS"
   },
   {
     "objectID": "3_rag.html#title",
     "href": "3_rag.html#title",
     "title": "Retrieval-Augmented Generation (RAG)",
     "section": "",
-    "text": "Within our multi-agent pipeline, we have implemented a Retrieval-Augmented Generation (RAG) system to act as the question-answering portion of the application. The RAG system is designed to read the user’s query, retrieve the sources needed in the vectorstore to answer the question, and consolidate the sources to provide an accurate answer. This is especially important for stock market data, as the information is constantly changing, includes exact values, and is often time-sensitive. With a RAG we’re able to avoid any type of hallucination and provide the most accurate and up-to-date information to the user.\nThe RAG system is built using the LangChain framework, which allows us to easily integrate various components such as the vectorstore, retriever, and LLM. The vectorstore was created using FAISS, a popular library for efficient similarity search and clustering of dense vectors. The embeddings used to create the vectorstore were generated from Hugging Face’s intfloat/e5-small-v2 model, which is lightweight and efficient with both semantic understanding and numeric retrieval capabilities. Our retriever is uses the maximum marginal relevance (MMR) algorithm to ensure that the retrieved documents are both relevant and diverse, which is crucial for providing comprehensive answers to user queries. Additionally, we have set k in the retriever to 30 since we found the RAG to suffer in retrieving the correct documents when k was lower, mainly due to the fact the RAG struggles with filtering data by specific dates and names. Lastly, the LLM used for answer generation is Claude 3.5 Sonnet from Anthropic, which is a state-of-the-art model known for its reasoning capabilities and ability to generate coherent and contextually relevant responses with being too wordy.\nWhen it came to creating the structure of the RAG, we also need to take into consideration the chat history and how to best utilize it. We decided that rather than creating a RAG chain, we would seperate it by question answer chain and document retrieval. We first combine the user query and the chat history into a single string, which is then passed to the retriever to find the most relevant documents. The retrieved documents are then passed to the question answer chain, (made up of the llm, system prompt, and documents) to generate a response. This approach allows us to maintain the context of the conversation while ensuring that the RAG system can effectively retrieve and utilize the most relevant information.\nThe RAG system is able to provide a cohesive answer, either directly based on the retrived documents or a statement that not enough data was found, back to the supervisor agent to be sent to the user. The system is build such that the supervisor agent simple transfers the RAG’s output to the user instead of augmenting any additonal details to avoid any type of hallucination.\n\n\n\n[1] LangChain\n[2] Hugging Face\n[3] FAISS"
+    "text": "Within our multi-agent pipeline, we have implemented a Retrieval-Augmented Generation (RAG) system to act as the question-answering portion of the application. The RAG system is designed to read the user’s query, retrieve the sources needed in the vectorstore to answer the question, and consolidate the sources to provide an accurate answer. This is especially important for stock market data, as the information is constantly changing, includes exact values, and is often time-sensitive. With a RAG we’re able to avoid any type of hallucination and provide the most accurate and up-to-date information to the user.\nThe RAG system is built using the LangChain framework, which allows us to easily integrate various components such as the vectorstore, retriever, and LLM. The vectorstore was created using FAISS, a popular library for efficient similarity search and clustering of dense vectors. The embeddings used to create the vectorstore were generated from Hugging Face’s intfloat/e5-small-v2 model, which is lightweight and efficient with both semantic understanding and numeric retrieval capabilities. Our retriever is uses the maximum marginal relevance (MMR) algorithm to ensure that the retrieved documents are both relevant and diverse, which is crucial for providing comprehensive answers to user queries. Additionally, we have set k in the retriever to 30 since we found the RAG to suffer in retrieving the correct documents when k was lower, mainly due to the fact the RAG struggles with filtering data by specific dates and names. Lastly, the LLM used for answer generation is Claude 3.5 Sonnet from Anthropic, which is a state-of-the-art model known for its reasoning capabilities and ability to generate coherent and contextually relevant responses with being too wordy.\nWhen it came to creating the structure of the RAG, we also need to take into consideration the chat history and how to best utilize it. We decided that rather than creating a RAG chain, we would seperate it by question answer chain and document retrieval. We first combine the user query and the chat history into a single string, which is then passed to the retriever to find the most relevant documents. The retrieved documents are then passed to the question answer chain, (made up of the llm, system prompt, and documents) to generate a response. This approach allows us to maintain the context of the conversation while ensuring that the RAG system can effectively retrieve and utilize the most relevant information.\nThe RAG system is able to provide a cohesive answer, either directly based on the retrived documents or a statement that not enough data was found, back to the supervisor agent to be sent to the user. The system is build such that the supervisor agent simple transfers the RAG’s output to the user instead of augmenting any additonal details to avoid any type of hallucination.\n\n\nNext Section: AI Agents\n\n\n\n\n\\({^1}\\) LangChain\n\\({^2}\\) Hugging Face\n\\({^3}\\) FAISS"
   },
   {
     "objectID": "1_introduction.html",
@@ -123,7 +123,7 @@
     "href": "1_introduction.html#points-of-analysis",
     "title": "Introduction",
     "section": "Points of Analysis",
-    "text": "Points of Analysis\nMain points\n\nData Science Question\nQuestion\n\n\nData Question\n\nQuestion 1\nQuestion 2\nQuestion 3\n\n\n\n\nReferences:\n[1] Gamage, P. (2026). Applied Time Series for Data Science."
+    "text": "Points of Analysis\nMain points\n\nData Science Question\nQuestion\n\n\nData Question\n\nQuestion 1\nQuestion 2\nQuestion 3\n\n\n\nNext Section: Data Sources and Preparation\n\n\n\n\nReferences:\n\\({^1}\\) Gamage, P. (2026). Applied Time Series for Data Science."
   },
   {
     "objectID": "index.html",
@@ -135,29 +135,29 @@
   {
     "objectID": "4_agents.html",
     "href": "4_agents.html",
-    "title": "Agents",
+    "title": "AI Agents",
     "section": "",
-    "text": "Content\n\nArchitecture of AI agents used.\nFrameworks used (e.g., LangChain, LlamaIndex, Haystack).\nTypes of agents (e.g., tool-using agents, autonomous agents, planning agents).\nHow agents interact with external tools and APIs.\n\n\n\n\n[1]"
+    "text": "Content\n\nArchitecture of AI agents used.\nFrameworks used (e.g., LangChain, LlamaIndex, Haystack).\nTypes of agents (e.g., tool-using agents, autonomous agents, planning agents).\nHow agents interact with external tools and APIs.\n\n\n\nNext Section: Models and Technologies Used\n\n\n\n\n\\({^1}\\)"
   },
   {
     "objectID": "4_agents.html#title",
     "href": "4_agents.html#title",
-    "title": "Agents",
+    "title": "AI Agents",
     "section": "",
-    "text": "Content\n\nArchitecture of AI agents used.\nFrameworks used (e.g., LangChain, LlamaIndex, Haystack).\nTypes of agents (e.g., tool-using agents, autonomous agents, planning agents).\nHow agents interact with external tools and APIs.\n\n\n\n\n[1]"
+    "text": "Content\n\nArchitecture of AI agents used.\nFrameworks used (e.g., LangChain, LlamaIndex, Haystack).\nTypes of agents (e.g., tool-using agents, autonomous agents, planning agents).\nHow agents interact with external tools and APIs.\n\n\n\nNext Section: Models and Technologies Used\n\n\n\n\n\\({^1}\\)"
   },
   {
     "objectID": "5_model.html",
     "href": "5_model.html",
     "title": "Models and Technologies Used",
     "section": "",
-    "text": "Content\n\nDiscussion on the models utilized (LLMs, embedding models, classifiers, etc.).\nComparison of different models and justification for final choices.\nAny inference optimizations applied (e.g., quantization, distillation, multi-adapter swapping).\n\n\n\n\n[1] LangChain\n[2] Hugging Face\n[3] Bedrock\n[4] FAISS"
+    "text": "Content\n\nDiscussion on the models utilized (LLMs, embedding models, classifiers, etc.).\nComparison of different models and justification for final choices.\nAny inference optimizations applied (e.g., quantization, distillation, multi-adapter swapping).\n\n\n\nNext Section: Tools and Frameworks\n\n\n\n\n\\({^1}\\) LangChain\n\\({^2}\\) Hugging Face\n\\({^3}\\) Bedrock\n\\({^4}\\) FAISS"
   },
   {
     "objectID": "5_model.html#title",
     "href": "5_model.html#title",
     "title": "Models and Technologies Used",
     "section": "",
-    "text": "Content\n\nDiscussion on the models utilized (LLMs, embedding models, classifiers, etc.).\nComparison of different models and justification for final choices.\nAny inference optimizations applied (e.g., quantization, distillation, multi-adapter swapping).\n\n\n\n\n[1] LangChain\n[2] Hugging Face\n[3] Bedrock\n[4] FAISS"
+    "text": "Content\n\nDiscussion on the models utilized (LLMs, embedding models, classifiers, etc.).\nComparison of different models and justification for final choices.\nAny inference optimizations applied (e.g., quantization, distillation, multi-adapter swapping).\n\n\n\nNext Section: Tools and Frameworks\n\n\n\n\n\\({^1}\\) LangChain\n\\({^2}\\) Hugging Face\n\\({^3}\\) Bedrock\n\\({^4}\\) FAISS"
   }
 ]

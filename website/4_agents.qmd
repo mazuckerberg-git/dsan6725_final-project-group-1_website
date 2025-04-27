@@ -1,5 +1,5 @@
 ---
-title: "Agents"
+title: "AI Agents"
 format:
   html:
     toc: true
@@ -17,8 +17,13 @@ format:
 
 - How agents interact with external tools and APIs.
 
+<!-- Reference to next section -->
+<div style="text-align: right;">
+  <a href="2_data.html">Next Section: Models and Technologies Used</a>
+</div>
+
 ---
 
 ### References:
 
-[1] 
+${^1}$ 

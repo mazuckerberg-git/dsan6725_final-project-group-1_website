@@ -19,10 +19,15 @@ format:
 - Data preprocessing steps, including cleaning, augmentation, and transformations.
 
 
+<!-- Reference to next section -->
+<div style="text-align: right;">
+  <a href="2_data.html">Next Section: Retrieval-Augmented Generation (RAG)</a>
+</div>
+
 ---
 
 ### References:
 
-[1] [Finnhub-API](https://github.com/finnhubio/Finnhub-API)
+${^1}$ [Finnhub-API](https://github.com/finnhubio/Finnhub-API)
 
-[2] [Yahoo Finance](https://finance.yahoo.com)
+${^2}$ [Yahoo Finance](https://finance.yahoo.com)

@@ -15,8 +15,14 @@ format:
 
 - User studies, feedback, or qualitative assessments.
 
+<!-- Reference to next section -->
+<div style="text-align: right;">
+  <a href="2_data.html">Next Section: Responsible AI Considerations</a>
+</div>
+
+
 ---
 
 ### References:
 
-[1] [Ragas](https://docs.ragas.io/en/stable/)
+${^1}$ [Ragas](https://docs.ragas.io/en/stable/)

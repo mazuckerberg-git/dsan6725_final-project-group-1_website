@@ -15,14 +15,19 @@ format:
 
 - Any inference optimizations applied (e.g., quantization, distillation, multi-adapter swapping).
 
+<!-- Reference to next section -->
+<div style="text-align: right;">
+  <a href="2_data.html">Next Section: Tools and Frameworks</a>
+</div>
+
 ---
 
 ### References:
 
-[1] [LangChain](https://python.langchain.com/docs/)
+${^1}$ [LangChain](https://python.langchain.com/docs/)
 
-[2] [Hugging Face](https://huggingface.co/)
+${^2}$ [Hugging Face](https://huggingface.co/)
 
-[3] [Bedrock](https://www.bedrock.aws/)
+${^3}$ [Bedrock](https://www.bedrock.aws/)
 
-[4] [FAISS](https://python.langchain.com/docs/integrations/vectorstores/faiss/)
+${^4}$ [FAISS](https://python.langchain.com/docs/integrations/vectorstores/faiss/)

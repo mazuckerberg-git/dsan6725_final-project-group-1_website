@@ -4439,6 +4439,17 @@ vertical-align: -.125em;
   }
 }</script>
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  
+  <script>
+    (function () {
+      var script = document.createElement("script");
+      script.type = "text/javascript";
+      script.src  = "https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js";
+      document.getElementsByTagName("head")[0].appendChild(script);
+    })();
+  </script>
+
 
 </head>
 
@@ -4597,13 +4608,17 @@ vertical-align: -.125em;
 <li><p>Comparison of different models and justification for final choices.</p></li>
 <li><p>Any inference optimizations applied (e.g., quantization, distillation, multi-adapter swapping).</p></li>
 </ul>
+<!-- Reference to next section -->
+<div style="text-align: right;">
+<p><a href="2_data.html">Next Section: Tools and Frameworks</a></p>
+</div>
 <hr>
 <section id="references" class="level3">
 <h3 class="anchored" data-anchor-id="references">References:</h3>
-<p>[1] <a href="https://python.langchain.com/docs/">LangChain</a></p>
-<p>[2] <a href="https://huggingface.co/">Hugging Face</a></p>
-<p>[3] <a href="https://www.bedrock.aws/">Bedrock</a></p>
-<p>[4] <a href="https://python.langchain.com/docs/integrations/vectorstores/faiss/">FAISS</a></p>
+<p><span class="math inline">\({^1}\)</span> <a href="https://python.langchain.com/docs/">LangChain</a></p>
+<p><span class="math inline">\({^2}\)</span> <a href="https://huggingface.co/">Hugging Face</a></p>
+<p><span class="math inline">\({^3}\)</span> <a href="https://www.bedrock.aws/">Bedrock</a></p>
+<p><span class="math inline">\({^4}\)</span> <a href="https://python.langchain.com/docs/integrations/vectorstores/faiss/">FAISS</a></p>
 
 
 </section>
