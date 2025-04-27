@@ -10,5 +10,13 @@ format:
 **Content**
 
 - Programming languages and frameworks used (e.g., Python, PyTorch, TensorFlow, Hugging Face, OpenAI API).
+
 - Cloud platforms and any relevant services (e.g., Amazon Bedrock, Amazon SageMaker, Vector DBs like FAISS), open-source (e.g. LangChain).
+
 - Version control, CI/CD, or deployment considerations.
+
+---
+
+### References:
+
+[1]

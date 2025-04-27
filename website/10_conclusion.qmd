@@ -10,5 +10,7 @@ format:
 **Content**
 
 - Summary of the project and its impact.
+
 - Limitations of the current implementation.
+
 - Potential future improvements and extensions.

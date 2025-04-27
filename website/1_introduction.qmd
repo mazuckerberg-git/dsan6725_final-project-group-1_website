@@ -8,7 +8,9 @@ format:
 
 ## Introduction
 - Overview of the problem being addressed.
+
 - Motivation for choosing this problem and its relevance in the field of Generative AI.
+
 - Research questions or hypotheses (if applicable).
 
 ---
@@ -25,10 +27,14 @@ Main points
 
 ### Data Question
 - Question 1
+
 - Question 2
+
 - Question 3
 
 
-**References:**
+---
 
-[^1] Gamage, P. (2026). Applied Time Series for Data Science.
+### References:
+
+[1] Gamage, P. (2026). Applied Time Series for Data Science.

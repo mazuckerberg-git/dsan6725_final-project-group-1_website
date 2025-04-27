@@ -18,10 +18,12 @@ When it came to creating the structure of the RAG, we also need to take into con
 The RAG system is able to provide a cohesive answer, either directly based on the retrived documents or a statement that not enough data was found, back to the supervisor agent to be sent to the user. The system is build such that the supervisor agent simple transfers the RAG's output to the user instead of augmenting any additonal details to avoid any type of hallucination.
 
 
-**References:**
+---
 
-[^1] [LangChain](https://python.langchain.com/docs/)
+### References:
 
-[^2] [Hugging Face](https://huggingface.co/)
+[1] [LangChain](https://python.langchain.com/docs/)
 
-[^3] [FAISS](https://python.langchain.com/docs/integrations/vectorstores/faiss/)
+[2] [Hugging Face](https://huggingface.co/)
+
+[3] [FAISS](https://python.langchain.com/docs/integrations/vectorstores/faiss/)

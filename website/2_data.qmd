@@ -10,6 +10,7 @@ format:
 **Content**
 
 - Description of the data sources used (public datasets, proprietary data, scraped data, etc.).
+
 - Justification for data selection and preprocessing choices.
 
 ## Preparation
@@ -17,8 +18,11 @@ format:
 
 - Data preprocessing steps, including cleaning, augmentation, and transformations.
 
-**References:**
 
-[^1] [Finnhub-API](https://github.com/finnhubio/Finnhub-API)
+---
 
-[^2] [Yahoo Finance](https://finance.yahoo.com)
+### References:
+
+[1] [Finnhub-API](https://github.com/finnhubio/Finnhub-API)
+
+[2] [Yahoo Finance](https://finance.yahoo.com)

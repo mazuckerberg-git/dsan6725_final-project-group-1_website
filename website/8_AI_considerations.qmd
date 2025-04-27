@@ -10,6 +10,15 @@ format:
 **Content**
 
 - Bias and fairness checks conducted.
+
 - Any measures taken to reduce hallucinations and ensure factual consistency.
+
 - Privacy considerations (e.g., PII removal, data anonymization).
+
 - Model safety measures and ethical implications.
+
+---
+
+### References:
+
+[1]

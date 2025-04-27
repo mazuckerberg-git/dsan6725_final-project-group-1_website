@@ -10,5 +10,13 @@ format:
 **Content**
 
 - Key takeaways from the project.
+
 - Unexpected challenges and how they were addressed.
+ 
 - Performance trade-offs and scalability considerations.
+
+---
+
+### References:
+
+[1]

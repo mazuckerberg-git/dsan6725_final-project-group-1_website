@@ -10,15 +10,19 @@ format:
 **Content**
 
 - Discussion on the models utilized (LLMs, embedding models, classifiers, etc.).
+
 - Comparison of different models and justification for final choices.
+
 - Any inference optimizations applied (e.g., quantization, distillation, multi-adapter swapping).
 
-**References:**
+---
 
-[^1] [LangChain](https://python.langchain.com/docs/)
+### References:
 
-[^2] [Hugging Face](https://huggingface.co/)
+[1] [LangChain](https://python.langchain.com/docs/)
 
-[^3] [Bedrock](https://www.bedrock.aws/)
+[2] [Hugging Face](https://huggingface.co/)
 
-[^4] [FAISS](https://python.langchain.com/docs/integrations/vectorstores/faiss/)
+[3] [Bedrock](https://www.bedrock.aws/)
+
+[4] [FAISS](https://python.langchain.com/docs/integrations/vectorstores/faiss/)
