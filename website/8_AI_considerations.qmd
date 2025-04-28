@@ -21,7 +21,7 @@ format:
 <br>
 <!-- Reference to next section -->
 <div style="text-align: right; font-size: 14px;">
-  <a href="2_data.html">Next Section: Findings and Insights</a>
+  <a href="9_findings.html">Next Section: Findings and Insights</a>
 </div>
 
 ---
