@@ -11,14 +11,28 @@
     "href": "9_findings.html",
     "title": "Findings and Insights",
     "section": "",
-    "text": "Key takeaways from the project.\nUnexpected challenges and how they were addressed.\nPerformance trade-offs and scalability considerations.\n\n \n\nNext Section: Conclusion and Future Work\n\n\n\nReferences:\n\\({^1}\\)"
+    "text": "Key takeaways from the project.\nUnexpected challenges and how they were addressed.\nPerformance trade-offs and scalability considerations. –&gt; In Conclusion\n\n \n\nNext Section: Conclusion and Future Work\n\n\n\nReferences:\n\\({^1}\\)"
   },
   {
     "objectID": "7_evaluations.html",
     "href": "7_evaluations.html",
     "title": "Evaluation of Effectiveness",
     "section": "",
-    "text": "Metrics used for evaluation (e.g., BLEU, ROUGE, MRR, Precision/Recall for retrieval, perplexity for LLMs).\nBenchmarking comparisons against baselines.\nUser studies, feedback, or qualitative assessments.\n\n \n\nNext Section: Responsible AI Considerations\n\n\n\nReferences:\n\\({^1}\\) Ragas"
+    "text": "Metrics used for evaluation (e.g., BLEU, ROUGE, MRR, Precision/Recall for retrieval, perplexity for LLMs).\nBenchmarking comparisons against baselines.\nUser studies, feedback, or qualitative assessments."
+  },
+  {
+    "objectID": "7_evaluations.html#ragas-evaluations",
+    "href": "7_evaluations.html#ragas-evaluations",
+    "title": "Evaluation of Effectiveness",
+    "section": "Ragas Evaluations",
+    "text": "Ragas Evaluations"
+  },
+  {
+    "objectID": "7_evaluations.html#user-feedback",
+    "href": "7_evaluations.html#user-feedback",
+    "title": "Evaluation of Effectiveness",
+    "section": "User Feedback",
+    "text": "User Feedback\n \n\nNext Section: Responsible AI Considerations\n\n\n\nReferences:\n\\({^1}\\) Ragas"
   },
   {
     "objectID": "2_data.html",
@@ -39,21 +53,35 @@
     "href": "10_conclusion.html",
     "title": "Conclusion and Future Work",
     "section": "",
-    "text": "Summary of the project and its impact.\nLimitations of the current implementation.\nPotential future improvements and extensions."
+    "text": "Summary of the project and its impact."
+  },
+  {
+    "objectID": "10_conclusion.html#limitations",
+    "href": "10_conclusion.html#limitations",
+    "title": "Conclusion and Future Work",
+    "section": "Limitations",
+    "text": "Limitations\n\nLimitations of the current implementation."
+  },
+  {
+    "objectID": "10_conclusion.html#future-improvememnents",
+    "href": "10_conclusion.html#future-improvememnents",
+    "title": "Conclusion and Future Work",
+    "section": "Future Improvememnents",
+    "text": "Future Improvememnents\n\nPotential future improvements and extensions."
   },
   {
     "objectID": "6_tools.html",
     "href": "6_tools.html",
     "title": "Tools",
     "section": "",
-    "text": "Programming languages and frameworks used (e.g., Python, PyTorch, TensorFlow, Hugging Face, OpenAI API).\nCloud platforms and any relevant services (e.g., Amazon Bedrock, Amazon SageMaker, Vector DBs like FAISS), open-source (e.g. LangChain).\nVersion control, CI/CD, or deployment considerations."
+    "text": "Programming languages and frameworks used (e.g., Python, PyTorch, TensorFlow, Hugging Face, OpenAI API).\nCloud platforms and any relevant services (e.g., Amazon Bedrock, Amazon SageMaker, Vector DBs like FAISS), open-source (e.g. LangChain).\nVersion control, CI/CD, or deployment considerations.\nMention Langchain for all agents\nMention Bedrock for invoking the models\nFAISS mentioned in models?\nVersion control was done using Git"
   },
   {
     "objectID": "6_tools.html#frameworks",
     "href": "6_tools.html#frameworks",
     "title": "Tools",
     "section": "Frameworks",
-    "text": "Frameworks\n \n\nNext Section: “Evaluation of Effectiveness\n\n\n\nReferences:\n\\({^1}\\)"
+    "text": "Frameworks\nMention streamlit interface with in chat loggers\n \n\nNext Section: “Evaluation of Effectiveness\n\n\n\nReferences:\n\\({^1}\\) LangChain\n\\({^2}\\) Bedrock\n\\({^3}\\) Streamlit\n\\({^4}\\) [Github] (https://docs.github.com/en/get-started/using-git/about-git)"
   },
   {
     "objectID": "3_rag.html",
@@ -88,14 +116,14 @@
     "href": "4_agents.html",
     "title": "AI Agents",
     "section": "",
-    "text": "Architecture of AI agents used.\nFrameworks used (e.g., LangChain, LlamaIndex, Haystack).\nTypes of agents (e.g., tool-using agents, autonomous agents, planning agents).\nHow agents interact with external tools and APIs.\n\n \n\nNext Section: Models and Technologies Used\n\n\n\nReferences:\n\\({^1}\\)"
+    "text": "Architecture of AI agents used.\nFrameworks used (e.g., LangChain, LlamaIndex, Haystack).\nTypes of agents (e.g., tool-using agents, autonomous agents, planning agents).\nHow agents interact with external tools and APIs.\n\n\nExplain overall structure, graph and in memory\n\nSupervisor Agent\n\n\nData Gathering Agent\n\n\nRAG Agent\n\n\nData Engineering Agent\n \n\nNext Section: Models and Technologies Used\n\n\n\n\nReferences:\n\\({^1}\\)"
   },
   {
     "objectID": "5_model.html",
     "href": "5_model.html",
     "title": "Models",
     "section": "",
-    "text": "Discussion on the models utilized (LLMs, embedding models, classifiers, etc.).\nComparison of different models and justification for final choices.\nAny inference optimizations applied (e.g., quantization, distillation, multi-adapter swapping)."
+    "text": "Discussion on the models utilized (LLMs, embedding models, classifiers, etc.).\nComparison of different models and justification for final choices.\nAny inference optimizations applied (e.g., quantization, distillation, multi-adapter swapping).\nMention FAISS embeddings for tabular data\nMention Claude for code and answer generation"
   },
   {
     "objectID": "5_model.html#technologies-used",

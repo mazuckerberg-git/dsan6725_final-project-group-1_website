@@ -13,7 +13,21 @@ format:
 
 - Version control, CI/CD, or deployment considerations.
 
+---
+
+*Mention Langchain for all agents*
+
+*Mention Bedrock for invoking the models*
+
+*FAISS mentioned in models?*
+
+*Version control was done using Git*
+
 ## Frameworks
+
+*Mention streamlit interface with in chat loggers*
+
+
 
 <br>
 <!-- Reference to next section -->
@@ -25,4 +39,10 @@ format:
 
 ### References:
 
-${^1}$
+${^1}$ [LangChain](https://python.langchain.com/docs/)
+
+${^2}$ [Bedrock](https://www.bedrock.aws/)
+
+${^3}$ [Streamlit](https://streamlit.io/)
+
+${^4}$ [Github] (https://docs.github.com/en/get-started/using-git/about-git)

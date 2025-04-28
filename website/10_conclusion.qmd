@@ -8,6 +8,11 @@ format:
 
 - Summary of the project and its impact.
 
+## Limitations
+
 - Limitations of the current implementation.
 
+## Future Improvememnents
+
 - Potential future improvements and extensions.
+

@@ -14,6 +14,20 @@ format:
 
 - How agents interact with external tools and APIs.
 
+---
+
+*Explain overall structure, graph and in memory*
+
+### Supervisor Agent
+
+### Data Gathering Agent
+
+### RAG Agent
+
+### Data Engineering Agent
+
+
+
 
 <br>
 <!-- Reference to next section -->

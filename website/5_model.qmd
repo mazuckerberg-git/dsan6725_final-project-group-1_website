@@ -14,7 +14,17 @@ format:
 
 - Any inference optimizations applied (e.g., quantization, distillation, multi-adapter swapping).
 
+*Mention FAISS embeddings for tabular data*
+
+*Mention Claude for code and answer generation*
+
+
 ## Technologies Used
+
+
+
+
+
 
 <br>
 <!-- Reference to next section -->
