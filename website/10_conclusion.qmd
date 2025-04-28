@@ -6,13 +6,28 @@ format:
     embed-resources: true
 ---
 
-- Summary of the project and its impact.
+As we have described throughout this report, our Stock Market LLM Assistant is a multi-agent system that automates data collection, processing, and query handling for stock market analysis and insights. The system is designed to be user-friendly, accurate, and efficient, providing users with real-time insights into stock market data. We were able to utilize a variety of AWS services, python packages, and LLMs to create a product that is not only functional but also scalable and flexible.
+
+We hope this project serves as an example of what generative AI can do in the financial sector and how it can be used to automate time-consuming and jargon-heavy tasks. This could hopefully be a useful tool to learn more about the stock market and make informed decisions, even as a novice in the field.
+
 
 ## Limitations
 
-- Limitations of the current implementation.
+In our current implementation, there are some limitations that we have encountered. These include:
 
-## Future Improvememnents
+- **Data Collection**: The data collection process is dependent on the APIs we are using. We are only able to collect stock price data for the past two years from the current date due to the free API we are using. For news data, we are only able to retrieve articles from the past few weeks. This limits the amount of data we can collect and analyze, which may impact the questions that can be answered by the system.
 
-- Potential future improvements and extensions.
+- **RAG Limitations**: The RAG agent is still prone to being unable to answer certain questions based on the retrieval data. Because the agent is not explicitly filtering the documents when retrieving them, but rather, conducting a similarity search, it is possible that the agent will retrieve documents that are not relevant to the question being asked. While we have safeguards in place to ensure that the agent is not hallucinating, the agent will respond by saving it doesn't have enough information even if it is stored in the vectorstore.
 
+- **LLM Limitations**: The LLMs we are using are not perfect and may not always provide accurate or relevant answers to user queries. This is especially true for some of the more complex analysis that the user may request.
+
+
+## Future Improvements
+
+If we were to continue this project, we would consider the following improvements:
+
+- **Data Collection**: We would consider using a paid API to collect more comprehensive data for stock prices and news articles. This would allow us to provide more accurate and timely insights to users as well as broaden the time period of data we can collect.
+
+- **Business and Financial Analysis**: We would consider adding more advanced business and financial analysis tools to the system that are commonly asked for in the corporate financial world.
+
+- **Faster Responses**: We would consider implementing more inference optimization techniques to improve the response time of the system since the current system is slow to respond for certain queries, especially with engineering tasks.
