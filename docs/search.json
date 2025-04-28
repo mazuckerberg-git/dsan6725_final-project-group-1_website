@@ -116,7 +116,35 @@
     "href": "4_agents.html",
     "title": "AI Agents",
     "section": "",
-    "text": "Architecture of AI agents used.\nFrameworks used (e.g., LangChain, LlamaIndex, Haystack).\nTypes of agents (e.g., tool-using agents, autonomous agents, planning agents).\nHow agents interact with external tools and APIs.\n\n\nExplain overall structure, graph and in memory\n\nSupervisor Agent\n\n\nData Gathering Agent\n\n\nRAG Agent\n\n\nData Engineering Agent\n \n\nNext Section: Models and Technologies Used\n\n\n\n\nReferences:\n\\({^1}\\)"
+    "text": "Architecture of AI agents used.\nFrameworks used (e.g., LangChain, LlamaIndex, Haystack).\nTypes of agents (e.g., tool-using agents, autonomous agents, planning agents).\nHow agents interact with external tools and APIs.\nExplain overall structure, graph and in memory"
+  },
+  {
+    "objectID": "4_agents.html#supervisor-agent",
+    "href": "4_agents.html#supervisor-agent",
+    "title": "AI Agents",
+    "section": "Supervisor Agent",
+    "text": "Supervisor Agent"
+  },
+  {
+    "objectID": "4_agents.html#data-gathering-agent",
+    "href": "4_agents.html#data-gathering-agent",
+    "title": "AI Agents",
+    "section": "Data Gathering Agent",
+    "text": "Data Gathering Agent"
+  },
+  {
+    "objectID": "4_agents.html#rag-agent",
+    "href": "4_agents.html#rag-agent",
+    "title": "AI Agents",
+    "section": "RAG Agent",
+    "text": "RAG Agent"
+  },
+  {
+    "objectID": "4_agents.html#data-engineering-agent",
+    "href": "4_agents.html#data-engineering-agent",
+    "title": "AI Agents",
+    "section": "Data Engineering Agent",
+    "text": "Data Engineering Agent\n \n\nNext Section: Models and Technologies Used\n\n\n\nReferences:\n\\({^1}\\)"
   },
   {
     "objectID": "5_model.html",

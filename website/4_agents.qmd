@@ -18,13 +18,13 @@ format:
 
 *Explain overall structure, graph and in memory*
 
-### Supervisor Agent
+## Supervisor Agent
 
-### Data Gathering Agent
+## Data Gathering Agent
 
-### RAG Agent
+## RAG Agent
 
-### Data Engineering Agent
+## Data Engineering Agent
 
 
 
