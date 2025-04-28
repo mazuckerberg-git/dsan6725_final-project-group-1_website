@@ -6,33 +6,39 @@ format:
     embed-resources: true
 ---
 
+## Programming Languages and Frameworks
 
-- Programming languages and frameworks used (e.g., Python, PyTorch, TensorFlow, Hugging Face, OpenAI API).
+The primary programming language used in our project is Python, which is widely used in the data science and machine learning communities. We utilized several libraries and frameworks to build our application, but the most notable ones are:
 
-- Cloud platforms and any relevant services (e.g., Amazon Bedrock, Amazon SageMaker, Vector DBs like FAISS), open-source (e.g. LangChain).
+- **LangChain**: This is the main framework we used to build our multi-agent system. It provides a modular and flexible architecture for creating and managing agents, as well as tools for data retrieval and processing. LangChain's [documentation](https://python.langchain.com/docs/) provides detailed information on how to use its various components.
 
-- Version control, CI/CD, or deployment considerations.
+- **Streamlit**: This is a Python library that allows us to create interactive web applications. We used Streamlit to build the user interface for our application, which acts as a chat interface for users to interact with our agents. The [Streamlit documentation](https://streamlit.io/) provides information on how to use its features and components.
 
----
+## Cloud Platforms
 
-*Mention Langchain for all agents*
+Using the skills we obtained in this course, we used AWS as our cloud platform to deploy our application. Additionally, we used Amazon Bedrock to access the LLMs and Amazon SageMaker for model training and deployment.
 
-*Mention Bedrock for invoking the models*
+For the structure and creation of our agents, we used LangChain and its various modules as the framework for our multi-agent system. To create and store our data that the agents access, we used FAISS (Facebook AI Similarity Search) as our vector database. This allows us to store and retrieve data efficiently, as well as append new data to the vectorstore if requested by the user. 
 
-*FAISS mentioned in models?*
-
-*Version control was done using Git*
+Lastly, to create our user interface, we used Streamlit, a Python library that allows us to create interactive web applications. Our streamlit app acts as a chat interface, allowing users to interact with our agents and receive real-time insights on stock market data.
 
 ### Data Gathering Tools
 
 ### RAG Tools
 
+As mentioned previously, we used LangChain to create our RAG agent. This agent is responsible for retrieving relevant data from our vector database and generating responses to user queries. Again, since we are using a rag chain to retrieve and answer user queries, we do not have any tools defined for this agent.
+
 ### Data Engineering Tools
+
+The tools we defined for our data engineering agent are the following: `code_generation()`, `code_execution()`, and `documentation()`. These tools are defined via the LangChain tools module. These tools, which are further described on the [Agents page](4_agents.html), are called upon through the engineering agent via its defined system prompt.
 
 ## Frameworks
 
 *Mention streamlit interface with in chat loggers*
 
+## Version Control and CI/CD
+
+For version control, we used Git and hosted our code on GitHub. Our Github repository contains all the code for our pipeline, as well as milestone documents, working files from previous iterations, and a README file that provides an overview of the project. We also used several branches in our repository to manage different features and iterations of our project. 
 
 
 <br>
