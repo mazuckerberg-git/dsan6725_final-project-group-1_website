@@ -4467,7 +4467,7 @@ padding-top: 5px;
 padding-bottom: 5px;
 background-color: #2c3e50;
 border-radius: 8px;
-margin-top: 0px;
+margin-top: 10px;
 }
 h3 {
 font-size: 20px;
@@ -4633,7 +4633,12 @@ width: 95%; margin-left: 0px; padding-left: 0px; }
     <h2 id="toc-title">Contents</h2>
    
   <ul>
-  <li><a href="#references" id="toc-references" class="nav-link active" data-scroll-target="#references">References:</a></li>
+  <li><a href="#points-of-analysis" id="toc-points-of-analysis" class="nav-link active" data-scroll-target="#points-of-analysis">Points of Analysis</a>
+  <ul class="collapse">
+  <li><a href="#data-science-question" id="toc-data-science-question" class="nav-link" data-scroll-target="#data-science-question">Data Science Question</a></li>
+  <li><a href="#project-questions" id="toc-project-questions" class="nav-link" data-scroll-target="#project-questions">Project Questions:</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References:</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -4659,16 +4664,44 @@ width: 95%; margin-left: 0px; padding-left: 0px; }
 
 <p>Our Stock Market LLM Assistant will be designed to provide insights on stock market data using a multi-agent system. The application leverages data engineering and RAG (Retrieval-Augmented Generation) agents to automate data collection, processing, and query handling. The data agent gathers stock market data via APIs, and cleans and stores it using FAISS. The engineering agent generates visualizations, executes code, and documents processes. The RAG agent answers user queries, analyzes stock trends, compares tickers, and generates customized datasets and visualizations. Our fully-functioning generative AI model will be contained in a user-friendly application which offers an interactive and intuitive experience for users seeking stock market insights.</p>
 <p>Our goal for this assistant is to create an application that is accessible to a wide range of users; from novice investors to experienced traders. The streamlit interface acts like a chat bot that allows users to ask questions about stock market data and receive real-time insights. Automated report generation, especially in finance, is a powerful and needed tool in the corporate world right now and we believe this project to serve as a stepping stone into more sophisticated iterations in the future for others to build upon.</p>
+<section id="points-of-analysis" class="level2">
+<h2 class="anchored" data-anchor-id="points-of-analysis">Points of Analysis</h2>
+<section id="data-science-question" class="level3">
+<h3 class="anchored" data-anchor-id="data-science-question">Data Science Question</h3>
+<p><strong>How can we build a Stock Market LLM Assistant leveraging multi-agent systems to deliver users with an efficient, intuitive interface for comprehensive financial and technical stock market analysis?</strong></p>
+</section>
+<section id="project-questions" class="level3">
+<h3 class="anchored" data-anchor-id="project-questions">Project Questions:</h3>
+<blockquote class="blockquote">
+<p>What sources of data are the most relevant to provide users with accurate and timely stock market insights?</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Can we create a multi-agent system that automates data collection, processing, and query handling for stock market analysis?</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>What models and techniques can we implement for RAG to optimize query-to-context retrieval and response generation?</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Can we implement tools that allow users to generate customized financial reports and visualizations?</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Should we consider AI ethics and bias in our model to ensure uninformed decision-making?</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>What are future improvements we can make to enhance the performance and usability of the Stock Market LLM Assistant?</p>
+</blockquote>
 <br> <!-- Reference to next section -->
 <div style="text-align: right; font-size: 14px;">
 <p><a href="2_data.html">Next Section: Data Sources and Preparation</a></p>
 </div>
 <hr>
+</section>
 <section id="references" class="level3">
 <h3 class="anchored" data-anchor-id="references">References:</h3>
 <p><span class="math inline">\({^1}\)</span> Gamage, P. (2026). Applied Time Series for Data Science.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

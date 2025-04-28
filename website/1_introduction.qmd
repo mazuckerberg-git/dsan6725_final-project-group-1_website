@@ -9,7 +9,24 @@ Our Stock Market LLM Assistant will be designed to provide insights on stock mar
 
 Our goal for this assistant is to create an application that is accessible to a wide range of users; from novice investors to experienced traders. The streamlit interface acts like a chat bot that allows users to ask questions about stock market data and receive real-time insights. Automated report generation, especially in finance, is a powerful and needed tool in the corporate world right now and we believe this project to serve as a stepping stone into more sophisticated iterations in the future for others to build upon.
 
+## Points of Analysis
 
+### Data Science Question
+**How can we build a Stock Market LLM Assistant leveraging multi-agent systems to deliver users with an efficient, intuitive interface for comprehensive financial and technical stock market analysis?**
+
+### Project Questions:
+
+> What sources of data are the most relevant to provide users with accurate and timely stock market insights?
+
+> Can we create a multi-agent system that automates data collection, processing, and query handling for stock market analysis?
+
+> What models and techniques can we implement for RAG to optimize query-to-context retrieval and response generation?
+
+> Can we implement tools that allow users to generate customized financial reports and visualizations?
+
+> Should we consider AI ethics and bias in our model to ensure uninformed decision-making?
+
+> What are future improvements we can make to enhance the performance and usability of the Stock Market LLM Assistant?
 
 <br>
 <!-- Reference to next section -->
