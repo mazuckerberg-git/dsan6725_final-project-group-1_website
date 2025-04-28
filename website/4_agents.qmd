@@ -22,6 +22,8 @@ format:
 
 ## Data Gathering Agent
 
+The Data Gathering Agent is an autonomous agent designed to collect both stock price and news data based on the tickers specified in the user's query. To achieve this, the agent leverages two tools: `gather_data()` and `data_to_vectorstore()`. Regardless of the user's request type, this agent is always invoked as a first step following specific instructions. First, it identifies the tickers mentioned in the query and compiles them into a list to be passed into the gather_data() tool. Then, it gathers the most up-to-date price and news data for the defined tickers. Finally, if new data has been successfully retrieved, the agent either creates a new vectorstore or updates an existing one, ensuring that the information is ready to be used by the next agents in the process: the *RAG Agent* and the *Data Engineering Agent*.
+
 ## RAG Agent
 
 ## Data Engineering Agent

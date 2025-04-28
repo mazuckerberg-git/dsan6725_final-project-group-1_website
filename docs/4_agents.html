@@ -4676,6 +4676,7 @@ width: 95%; margin-left: 0px; padding-left: 0px; }
 </section>
 <section id="data-gathering-agent" class="level2">
 <h2 class="anchored" data-anchor-id="data-gathering-agent">Data Gathering Agent</h2>
+<p>The Data Gathering Agent is an autonomous agent designed to collect both stock price and news data based on the tickers specified in the user’s query. To achieve this, the agent leverages two tools: <code>gather_data()</code> and <code>data_to_vectorstore()</code>. Regardless of the user’s request type, this agent is always invoked as a first step following specific instructions. First, it identifies the tickers mentioned in the query and compiles them into a list to be passed into the gather_data() tool. Then, it gathers the most up-to-date price and news data for the defined tickers. Finally, if new data has been successfully retrieved, the agent either creates a new vectorstore or updates an existing one, ensuring that the information is ready to be used by the next agents in the process: the <em>RAG Agent</em> and the <em>Data Engineering Agent</em>.</p>
 </section>
 <section id="rag-agent" class="level2">
 <h2 class="anchored" data-anchor-id="rag-agent">RAG Agent</h2>
