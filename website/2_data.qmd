@@ -12,13 +12,15 @@ To complement price data and provide users with deeper insights, we also include
 
 We gather ticker prices by scraping Yahoo Finance using the `requests` package in Python to retrieve detailed information such as *Trading Date*, *Open Price*, *High Price*, *Low Price*, *Close Price*, *Company Name*, among others.
 
-For the nres data, we use the Finnhub Stock API, as well-structured, highly regarded financial API built around REST principles. Using an API key, we extract company news within a specified date range and collect information such as *Headline*, *Source*, *Summary*, and *URL*.
+For the news data, we use the Finnhub Stock API, as well-structured, highly regarded financial API built around REST principles. Using an API key, we extract company news within a specified date range and collect information such as *Headline*, *Source*, *Summary*, and *URL*.
 
 ## Data Preparation
 
-- Data preprocessing steps, including cleaning, augmentation, and transformations.
+Since the price data is collected through web scraping, it was essential to perform several cleaning and transformation steps to ensure data quality and consistency. Some of the primary preprocessing tasks included converting fields from integer formats to proper datetime objects, and ensuring that all price-related fields were stored as numeric types. To facilitate better filtering and organization, we also augmented the data by adding key metadata, such as the ticker name, the month and year extracted from the trading date, and a source label indicating whether the entry corresponded to price or news data.
 
+For the news data obtained through the Finnhub API, the information was already structured and relatively clean. The main transformation involved converting the timestamp field from an integer format into a datetime object. 
 
+These preprocessing and augmentation steps are applied consistently across all tickers, ensuring a uniform structure. Finally, all processed data is saved both locally and in Amazon S3 buckets in JSON format, optimized for future loading into FAISS vector stores for efficient retrieval.
 
 <br>
 <!-- Reference to next section -->
