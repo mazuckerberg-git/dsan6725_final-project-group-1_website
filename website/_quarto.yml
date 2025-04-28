@@ -7,7 +7,11 @@ website:
   navbar:
     left:
       - text: Home | About Me
-        href: https://mazuckerberg.georgetown.domains/
+        menu:
+        - text: M. Agustina Zuckerberg
+          href: https://mazuckerberg.georgetown.domains/
+        - text: Shriya Chinthak
+          href: https://shriya-chinthak.georgetown.domains/ 
 
   sidebar:
     title: "Content:"
