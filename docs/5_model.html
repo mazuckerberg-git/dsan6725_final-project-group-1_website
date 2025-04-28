@@ -4646,6 +4646,9 @@ width: 95%; margin-left: 0px; padding-left: 0px; }
   <ul>
   <li><a href="#technologies-used" id="toc-technologies-used" class="nav-link active" data-scroll-target="#technologies-used">Technologies Used</a>
   <ul class="collapse">
+  <li><a href="#llm-models" id="toc-llm-models" class="nav-link" data-scroll-target="#llm-models">LLM Models</a></li>
+  <li><a href="#embedding-models" id="toc-embedding-models" class="nav-link" data-scroll-target="#embedding-models">Embedding Models</a></li>
+  <li><a href="#inference-optimizations" id="toc-inference-optimizations" class="nav-link" data-scroll-target="#inference-optimizations">Inference Optimizations</a></li>
   <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References:</a></li>
   </ul></li>
   </ul>
@@ -4671,20 +4674,28 @@ width: 95%; margin-left: 0px; padding-left: 0px; }
 
 </header>
 
-<ul>
-<li><p>Discussion on the models utilized (LLMs, embedding models, classifiers, etc.).</p></li>
-<li><p>Comparison of different models and justification for final choices.</p></li>
-<li><p>Any inference optimizations applied (e.g., quantization, distillation, multi-adapter swapping).</p></li>
-</ul>
-<p><em>Mention FAISS embeddings for tabular data</em></p>
-<p><em>Mention Claude for code and answer generation</em></p>
 <section id="technologies-used" class="level2">
 <h2 class="anchored" data-anchor-id="technologies-used">Technologies Used</h2>
+<p>To create our Stock Market LLM Assistant, we utilized a variety of technologies and frameworks. Below is a summary of the key components as well as the decision making process behind our choices.</p>
+<section id="llm-models" class="level3">
+<h3 class="anchored" data-anchor-id="llm-models">LLM Models</h3>
+<p>Since our project is a multi-agent system, we are using LLMs for all the agents. However, we quickly realized that in order to deliver the best results for our users, we needed to use the best model we had access to for all the agents. Thus, we used <strong>Claude 3.5 Sonnet</strong> for all agents in our system. Claude 3.5 Sonnet is a state-of-the-art LLM that has been trained on a diverse range of data, making it well-suited for a variety of tasks, including code generation, data analysis, and natural language understanding, summarization, and more. Through our testing, we found that other Bedrock models such as Nova and Titan 2 were not as effective for our use cases as Claude 3.5 Sonnet.</p>
+<p>At this time, we do not have the resources to use other LLM’s such as OpenAI’s GPT-4, but that can be a future consideration.</p>
+</section>
+<section id="embedding-models" class="level3">
+<h3 class="anchored" data-anchor-id="embedding-models">Embedding Models</h3>
+<p>Having a good embedding model is crucial for the performance of our RAG agent. We initially used the HuggingFace embedding model <code>BAAI/bge-small-en</code> for our RAG agent since we had used it in previous projects for this class. However, we quickly realized that this embedding model was not able to parse both semantic textual data and highly formatted tabular data in the form of json structures. Since our data contains both text data from the stock news articles and tabular data from the stock market data, we needed a model that could handle both to aid in the retrieval process.</p>
+<p>After some research, we found that the <strong>HuggingFace embedding model <code>intfloat/e5-small-v2</code></strong> was the best model for our use case. This model, unlike the previous one, is trained for general-purpose retrieval and ranking (multi-task), while <code>BAAI/bge-small-en</code> is mainly trained for English text understanding. <code>intfloat/e5-small-v2</code> performs best for instruction-following tasks, so our labeled json data was able to be parsed and embedded correctly.</p>
+</section>
+<section id="inference-optimizations" class="level3">
+<h3 class="anchored" data-anchor-id="inference-optimizations">Inference Optimizations</h3>
+<p>After testing the performance of our sub agents and combined pipeline, we chose not to implement any inference optimization techniques such as quantization, distillation, or multi-adapter swapping. This was mainly due to the fact that our models were already performing well and we did not want to risk losing any performance by implementing these techniques. However, this is something we will consider in the future as we continue to improve our assistant.</p>
 <br> <!-- Reference to next section -->
 <div style="text-align: right; font-size: 14px;">
 <p><a href="6_tools.html">Next Section: Tools and Frameworks</a></p>
 </div>
 <hr>
+</section>
 <section id="references" class="level3">
 <h3 class="anchored" data-anchor-id="references">References:</h3>
 <p><span class="math inline">\({^1}\)</span> <a href="https://python.langchain.com/docs/">LangChain</a></p>

@@ -6,6 +6,8 @@ format:
     embed-resources: true
 ---
 
+![Project Pipeline](images/project_pipeline.png)
+
 Our Stock Market LLM Assistant can be described as a hierarchical multi-agent system, where the supervisor agent is meant to delegate tasks between its sub agents and consolidate their outputs to present to the user. Below is a description of the agents, what we used to build them, and how they interact with each other.
 
 ## Supervisor Agent

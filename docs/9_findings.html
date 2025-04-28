@@ -4644,7 +4644,11 @@ width: 95%; margin-left: 0px; padding-left: 0px; }
     <h2 id="toc-title">Contents</h2>
    
   <ul>
-  <li><a href="#references" id="toc-references" class="nav-link active" data-scroll-target="#references">References:</a></li>
+  <li><a href="#key-takeaways" id="toc-key-takeaways" class="nav-link active" data-scroll-target="#key-takeaways">Key Takeaways</a></li>
+  <li><a href="#unexpected-challenges" id="toc-unexpected-challenges" class="nav-link" data-scroll-target="#unexpected-challenges">Unexpected Challenges</a>
+  <ul class="collapse">
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References:</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -4668,10 +4672,22 @@ width: 95%; margin-left: 0px; padding-left: 0px; }
 
 </header>
 
+<section id="key-takeaways" class="level2">
+<h2 class="anchored" data-anchor-id="key-takeaways">Key Takeaways</h2>
 <ul>
-<li><p>Key takeaways from the project.</p></li>
-<li><p>Unexpected challenges and how they were addressed.</p></li>
-<li><p>Performance trade-offs and scalability considerations. –&gt; In Conclusion</p></li>
+<li><p>Our Stock Market LLM Assistant successfully integrates a multi-agent system to automate data collection, processing, and query handling for stock market analysis and general insights.</p></li>
+<li><p>The use of LangChain’s <code>StateGraph</code> package for the Supervisor Agent allowed for efficient management of the flow of information between the user and the sub-agents.</p></li>
+<li><p>We were able to create a product that is user-friendly, accurate, and useful beyond the classroom.</p></li>
+</ul>
+</section>
+<section id="unexpected-challenges" class="level2">
+<h2 class="anchored" data-anchor-id="unexpected-challenges">Unexpected Challenges</h2>
+<p>With such an elaborate system, we of course ran into some unexpected challenges. The most notable ones were:</p>
+<ul>
+<li><p><strong>Data Collection</strong>: We faced challenges when it came to collecting up-to-date data. We had to rework our original code to update the FAISS vectorstore index only if the data does not already exist in the S3 bucket (e.i. the user has not asked for that data yet). Otherwise, the vectorstore simply loads the existing up-to-date FAISS index file. Additionally, if we are collecting data, we also only collect dates of data that are not already in the vectorstore. This was a challenge because we had to ensure that the data was being collected correctly and efficiently, without duplicating data or causing errors in the system.</p></li>
+<li><p><strong>RAG Hallucination</strong>: As we previously mentioned, the RAG agent had to be reworked to ensure that it was not hallucinating. By adding metadata to the json formatted data, changing the embedding model, rewriting the user prompt to include key details from the chat history, and increasing the number of documents retrieved, we were able to reduce the hallucination rate significantly.</p></li>
+<li><p><strong>Prompt Engineering</strong>: We had to rewrite several of our prompts to ensure that the agent was executing tasks exactly as we wanted. This included changing the way the agents were generating code, the way it was executing code, and the way it was generating documentation, how the formatting of answers should be, where outputs will be located (file paths), and much more. This was both tedious and time consuming, but necessary to ensure that the system was working as intended.</p></li>
+<li><p><strong>Throttling Errors in AWS Bedrock</strong>: By far, the most frustrating challenge of this project was facing throttling errors in AWS Bedrock. This error tended to be a catch all error for several issues in the pipeline, which made it incredibly difficult to debug. At times, we had to copy our code into chunks, rework slightly to test outside of the pipeline, and run it in a jupyter notebook to ensure the code was working as intended. Other times, we simply had to wait since AWS Bedrock would be down due to the amount of requests being made across the platform. This delayed progress some days and made it difficult to test the system as a whole.</p></li>
 </ul>
 <br> <!-- Reference to next section -->
 <div style="text-align: right; font-size: 14px;">
@@ -4680,9 +4696,10 @@ width: 95%; margin-left: 0px; padding-left: 0px; }
 <hr>
 <section id="references" class="level3">
 <h3 class="anchored" data-anchor-id="references">References:</h3>
-<p><span class="math inline">\({^1}\)</span></p>
+<p><span class="math inline">\({^1}\)</span> <a href="https://repost.aws/knowledge-center/bedrock-throttling-error">AWS Berock Throttling Errors</a></p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
