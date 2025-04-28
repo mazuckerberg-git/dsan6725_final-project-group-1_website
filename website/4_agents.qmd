@@ -6,7 +6,7 @@ format:
     embed-resources: true
 ---
 
-![Project Pipeline](images/project_pipeline.png)
+![Project Pipeline](../images/project_pipeline.png)
 
 Our Stock Market LLM Assistant can be described as a hierarchical multi-agent system, where the supervisor agent is meant to delegate tasks between its sub agents and consolidate their outputs to present to the user. Below is a description of the agents, what we used to build them, and how they interact with each other.
 
@@ -22,7 +22,7 @@ Thus, these three components of the Supervisor Agent allow it to efficiently man
 
 ## Data Gathering Agent
 
-The Data Gathering Agent is an autonomous agent designed to collect both stock price and news data based on the tickers specified in the user's query. To achieve this, the agent leverages two tools: `gather_data()` and `data_to_vectorstore()`. Regardless of the user's request type, this agent is always invoked as a first step following specific instructions. First, it identifies the tickers mentioned in the query and compiles them into a list to be passed into the gather_data() tool. Then, it gathers the most up-to-date price and news data for the defined tickers using the python package `Finnhub` that uses an API to access Yahoo Finance data. Finally, if new data has been successfully retrieved, the agent either creates a new vectorstore or updates an existing one, ensuring that the information is ready to be used by the next agents in the process: the *RAG Agent* and the *Data Engineering Agent*.
+The Data Gathering Agent is an autonomous agent designed to collect both stock price and news data based on the tickers specified in the user's query. To achieve this, the agent leverages two tools: `gather_data()` and `data_to_vectorstore()`. Regardless of the user's request type, this agent is always invoked as a first step following specific instructions. First, the LLM identifies the tickers mentioned in the query and compiles them into a list to be passed into the gather_data() tool. Then, it gathers the most up-to-date price and news data for the defined tickers using the python package `Finnhub` that uses an API to access Yahoo Finance data. Finally, if new data has been successfully retrieved, the agent either creates a new vectorstore or updates an existing one, ensuring that the information is ready to be used by the next agents in the process: the *RAG Agent* and the *Data Engineering Agent*.
 
 ## RAG Agent
 
