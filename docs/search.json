@@ -51,21 +51,21 @@
   {
     "objectID": "10_conclusion.html",
     "href": "10_conclusion.html",
-    "title": "Conclusion and Future Work",
+    "title": "Conclusion",
     "section": "",
     "text": "Summary of the project and its impact."
   },
   {
     "objectID": "10_conclusion.html#limitations",
     "href": "10_conclusion.html#limitations",
-    "title": "Conclusion and Future Work",
+    "title": "Conclusion",
     "section": "Limitations",
     "text": "Limitations\n\nLimitations of the current implementation."
   },
   {
     "objectID": "10_conclusion.html#future-improvememnents",
     "href": "10_conclusion.html#future-improvememnents",
-    "title": "Conclusion and Future Work",
+    "title": "Conclusion",
     "section": "Future Improvememnents",
     "text": "Future Improvememnents\n\nPotential future improvements and extensions."
   },
@@ -102,7 +102,7 @@
     "href": "1_introduction.html#points-of-analysis",
     "title": "Introduction",
     "section": "Points of Analysis",
-    "text": "Points of Analysis\n\nData Science Question\nHow can we build a Stock Market LLM Assistant leveraging multi-agent systems to deliver users with an efficient, intuitive interface for comprehensive financial and technical stock market analysis?\n\n\nProject Questions:\n\nWhat sources of data are the most relevant to provide users with accurate and timely stock market insights?\n\n\nCan we create a multi-agent system that automates data collection, processing, and query handling for stock market analysis?\n\n\nWhat models and techniques can we implement for RAG to optimize query-to-context retrieval and response generation?\n\n\nCan we implement tools that allow users to generate customized financial reports and visualizations?\n\n\nShould we consider AI ethics and bias in our model to ensure uninformed decision-making?\n\n\nWhat are future improvements we can make to enhance the performance and usability of the Stock Market LLM Assistant?\n\n \n\nNext Section: Data Sources and Preparation\n\n\n\n\nReferences:\n\\({^1}\\) Gamage, P. (2026). Applied Time Series for Data Science."
+    "text": "Points of Analysis\n\nData Science Question\n\nHow can we build a Stock Market LLM Assistant leveraging multi-agent systems to deliver users with an efficient, intuitive interface for comprehensive financial and technical stock market analysis?\n\n\n\nProject Questions:\n\nWhat sources of data are the most relevant to provide users with accurate and timely stock market insights?\n\n\nCan we create a multi-agent system that automates data collection, processing, and query handling for stock market analysis?\n\n\nWhat models and techniques can we implement for RAG to optimize query-to-context retrieval and response generation?\n\n\nCan we implement tools that allow users to generate customized financial reports and visualizations?\n\n\nShould we consider AI ethics and bias in our model to ensure uninformed decision-making?\n\n\nWhat are future improvements we can make to enhance the performance and usability of the Stock Market LLM Assistant?\n\n \n\nNext Section: Data Sources and Preparation\n\n\n\n\nReferences:\n\\({^1}\\) Gamage, P. (2026). Applied Time Series for Data Science."
   },
   {
     "objectID": "index.html",

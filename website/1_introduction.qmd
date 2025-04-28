@@ -12,7 +12,7 @@ Our goal for this assistant is to create an application that is accessible to a 
 ## Points of Analysis
 
 ### Data Science Question
-**How can we build a Stock Market LLM Assistant leveraging multi-agent systems to deliver users with an efficient, intuitive interface for comprehensive financial and technical stock market analysis?**
+> How can we build a Stock Market LLM Assistant leveraging multi-agent systems to deliver users with an efficient, intuitive interface for comprehensive financial and technical stock market analysis?
 
 ### Project Questions:
 

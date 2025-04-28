@@ -23,6 +23,12 @@ format:
 
 *Version control was done using Git*
 
+### Data Gathering Tools
+
+### RAG Tools
+
+### Data Engineering Tools
+
 ## Frameworks
 
 *Mention streamlit interface with in chat loggers*

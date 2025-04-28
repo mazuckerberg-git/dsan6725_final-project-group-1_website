@@ -1,5 +1,5 @@
 ---
-title: "Conclusion and Future Work"
+title: "Conclusion"
 format:
   html:
     toc: true
