@@ -6,14 +6,25 @@ format:
     embed-resources: true
 ---
 
+## Key Takeaways
 
-- Key takeaways from the project.
+- Our Stock Market LLM Assistant successfully integrates a multi-agent system to automate data collection, processing, and query handling for stock market analysis and general insights.
 
-- Unexpected challenges and how they were addressed.
- 
-- Performance trade-offs and scalability considerations. --> In Conclusion
+- The use of LangChain's `StateGraph` package for the Supervisor Agent allowed for efficient management of the flow of information between the user and the sub-agents.
 
+- We were able to create a product that is user-friendly, accurate, and useful beyond the classroom.
 
+## Unexpected Challenges
+
+With such an elaborate system, we of course ran into some unexpected challenges. The most notable ones were:
+
+- **Data Collection**: We faced challenges when it came to collecting up-to-date data. We had to rework our original code to update the FAISS vectorstore index only if the data does not already exist in the S3 bucket (e.i. the user has not asked for that data yet). Otherwise, the vectorstore simply loads the existing up-to-date FAISS index file. Additionally, if we are collecting data, we also only collect dates of data that are not already in the vectorstore. This was a challenge because we had to ensure that the data was being collected correctly and efficiently, without duplicating data or causing errors in the system.
+
+- **RAG Hallucination**: As we previously mentioned, the RAG agent had to be reworked to ensure that it was not hallucinating. By adding metadata to the json formatted data, changing the embedding model, rewriting the user prompt to include key details from the chat history, and increasing the number of documents retrieved, we were able to reduce the hallucination rate significantly.
+
+- **Prompt Engineering**: We had to rewrite several of our prompts to ensure that the agent was executing tasks exactly as we wanted. This included changing the way the agents were generating code, the way it was executing code, and the way it was generating documentation, how the formatting of answers should be, where outputs will be located (file paths), and much more. This was both tedious and time consuming, but necessary to ensure that the system was working as intended.
+
+- **Throttling Errors in AWS Bedrock**: By far, the most frustrating challenge of this project was facing throttling errors in AWS Bedrock. This error tended to be a catch all error for several issues in the pipeline, which made it incredibly difficult to debug. At times, we had to copy our code into chunks, rework slightly to test outside of the pipeline, and run it in a jupyter notebook to ensure the code was working as intended. Other times, we simply had to wait since AWS Bedrock would be down due to the amount of requests being made across the platform. This delayed progress some days and made it difficult to test the system as a whole.
 
 
 <br>
@@ -26,4 +37,4 @@ format:
 
 ### References:
 
-${^1}$
+${^1}$ [AWS Berock Throttling Errors](https://repost.aws/knowledge-center/bedrock-throttling-error)
