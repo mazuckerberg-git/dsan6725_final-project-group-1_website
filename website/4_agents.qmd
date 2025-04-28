@@ -6,30 +6,37 @@ format:
     embed-resources: true
 ---
 
-- Architecture of AI agents used.
-
-- Frameworks used (e.g., LangChain, LlamaIndex, Haystack).
-
-- Types of agents (e.g., tool-using agents, autonomous agents, planning agents).
-
-- How agents interact with external tools and APIs.
-
----
-
-*Explain overall structure, graph and in memory*
+Our Stock Market LLM Assistant can be described as a hierarchical multi-agent system, where the supervisor agent is meant to delegate tasks between its sub agents and consolidate their outputs to present to the user. Below is a description of the agents, what we used to build them, and how they interact with each other.
 
 ## Supervisor Agent
 
+The Supervisor Agent is the main orchestrator of the entire system. It is responsible for managing the flow of information between the user and the various sub-agents; data, RAG, and engineering. The main technology used to build the Supervisor Agent is LangChain's `StateGraph` package, which defines the Supervisor Agent as a state machine, with the sub agents acting as nodes in the graph. Using Claude 3.5 Sonnet from Anthropic, the Supervisor Agent is able to read the user's query and determine, based on our system prompt, which node to invoke. Since queries will either be Q&A style responses or analytical requests, the nodes are two distinct paths: one for the RAG Agent and one for the Engineering Agent, where both will first invoke the Data Gathering Agent to collect the most up-to-date data before proceeding.
+
+Additionally, the Supervisor Agent initializes all nodes in the graph with chat memory, setting context for each node. We utilized LangChain's storage methods `InMemoryStore()` and `InMemorySaver()` to store the chat history for each chat instance. This allows for the subagents to have access to any previous questions and answers in the current chat to augment the current query to be answered. For example, if the user asks a question like "What was the price of AAPL on the previous day?", the Supervisor Agent will be able to access the previous day's data from the chat history and pass it to the RAG Agent to answer the question.
+
+Lastly, if for any reason, the sug agents run into errors, the Supervisor Agent is able to catch these errors and gracefully handle them by providing a fallback answer to the user.
+
+Thus, these three components of the Supervisor Agent allow it to efficiently manage the flow of information between the user and the sub-agents, without the need of human intervention or any hard coding for its decision making.
+
 ## Data Gathering Agent
 
-The Data Gathering Agent is an autonomous agent designed to collect both stock price and news data based on the tickers specified in the user's query. To achieve this, the agent leverages two tools: `gather_data()` and `data_to_vectorstore()`. Regardless of the user's request type, this agent is always invoked as a first step following specific instructions. First, it identifies the tickers mentioned in the query and compiles them into a list to be passed into the gather_data() tool. Then, it gathers the most up-to-date price and news data for the defined tickers. Finally, if new data has been successfully retrieved, the agent either creates a new vectorstore or updates an existing one, ensuring that the information is ready to be used by the next agents in the process: the *RAG Agent* and the *Data Engineering Agent*.
+The Data Gathering Agent is an autonomous agent designed to collect both stock price and news data based on the tickers specified in the user's query. To achieve this, the agent leverages two tools: `gather_data()` and `data_to_vectorstore()`. Regardless of the user's request type, this agent is always invoked as a first step following specific instructions. First, it identifies the tickers mentioned in the query and compiles them into a list to be passed into the gather_data() tool. Then, it gathers the most up-to-date price and news data for the defined tickers using the python package `Finnhub` that uses an API to access Yahoo Finance data. Finally, if new data has been successfully retrieved, the agent either creates a new vectorstore or updates an existing one, ensuring that the information is ready to be used by the next agents in the process: the *RAG Agent* and the *Data Engineering Agent*.
 
 ## RAG Agent
 
-## Data Engineering Agent
+The RAG Agent is responsible for answering user queries by retrieving relevant information from the vectorstore and generating coherent responses. Unlike the data and engineering agents, the RAG Agent does not have any tools associated with it. Instead, it runs the `create_rag_chain()` function, which initializes the sentence embeddings, loads the vectorstore, creates the retriever, instantiates the prompt using `ChatPromptTemplate`, uses the LLM to rewrite the query based on the chat history, and retrieves the relevant documents provide an answer using the question-answer chain. The answer is then passed back to the Supervisor Agen to push to the user without any additional augmentation.
 
+The structure of our RAG agent allows for efficient retrieval and effectively uses chat history to provide accurate answers. The RAG Agent is designed to be flexible and can be easily updated with new data or models as needed.
 
+## Engineering Agent
 
+The Engineering Agent is responsible for generating any code requested from the user, executes that code, and generates documentation about the code and its outputs. This agent is built using the `LangChain` framework `create_react_agent` and has the following tools associated with it: `code_generation()`, `code_execution()`, and `documentation()`. When the user requests for any sort of code, report, or even mathematical calculation, the Supervisor Agent will invoke the Engineering Agent. The Engineering Agent will then use the `code_generation()` tool to generate the code needed to complete the task. Once the code is generated, it will be passed to the `code_execution()` tool to run the code and generate any outputs. If there are any errors during the execution, the agent will edit the code back in the `code_generation()` tool and rerun the `code_execution()` tool until the code runs correctly. Finally, the outputs are passed to the `documentation()` tool to create a report about the code, the steps the agent took to create the code, and its outputs along with any requested analysis. The report is then passed back to the Supervisor Agent to be summarized to the user as well as saved in a local directory and S3 bucket for the user to download.
+
+---
+
+Thus, our multi-agent system is designed to be flexible, efficient, and user-friendly. The Supervisor Agent orchestrates the entire process, while the Data Gathering Agent collects the necessary data, the RAG Agent retrieves and generates answers, and the Engineering Agent handles code generation and documentation. This structure allows for seamless interaction between the agents and ensures that users receive accurate and timely responses to their queries.
+
+Next, we will discuss the specific models and technologies used in our Stock Market LLM Assistant project.
 
 <br>
 <!-- Reference to next section -->
