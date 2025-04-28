@@ -6,7 +6,16 @@ format:
     embed-resources: true
 ---
 
-![Project Pipeline](../images/project_pipeline.png)
+```{=html}
+<div style="display: flex; justify-content: space-around; align-items: center;">
+ <div style="text-align: center;">
+   <img src="../images/project_pipeline.png" alt="Project Pipeline" style="width: 750px; height: auto;">
+   <p style="font-size: 10px">Project Pipeline</p>
+ </div>
+</div>
+```
+
+<!-- ![Project Pipeline](../images/project_pipeline.png) -->
 
 Our Stock Market LLM Assistant can be described as a hierarchical multi-agent system, where the supervisor agent is meant to delegate tasks between its sub agents and consolidate their outputs to present to the user. Below is a description of the agents, what we used to build them, and how they interact with each other.
 
