@@ -34,7 +34,7 @@ The Data Gathering Agent is an autonomous agent designed to collect both stock p
 <br>
 <!-- Reference to next section -->
 <div style="text-align: right; font-size: 14px;">
-  <a href="2_data.html">Next Section: Models and Technologies Used</a>
+  <a href="5_model.html">Next Section: Models and Technologies Used</a>
 </div>
 
 ---

@@ -81,7 +81,7 @@
     "href": "6_tools.html#frameworks",
     "title": "Tools",
     "section": "Frameworks",
-    "text": "Frameworks\nMention streamlit interface with in chat loggers\n \n\nNext Section: “Evaluation of Effectiveness\n\n\n\nReferences:\n\\({^1}\\) LangChain\n\\({^2}\\) Bedrock\n\\({^3}\\) Streamlit\n\\({^4}\\) [Github] (https://docs.github.com/en/get-started/using-git/about-git)"
+    "text": "Frameworks\nMention streamlit interface with in chat loggers\n \n\nNext Section: Evaluation of Effectiveness\n\n\n\nReferences:\n\\({^1}\\) LangChain\n\\({^2}\\) Bedrock\n\\({^3}\\) Streamlit\n\\({^4}\\) [Github] (https://docs.github.com/en/get-started/using-git/about-git)"
   },
   {
     "objectID": "3_rag.html",
