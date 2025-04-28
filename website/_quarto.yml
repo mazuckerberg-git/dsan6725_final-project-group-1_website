@@ -19,7 +19,7 @@ website:
         href: https://github.com/gu-dsan6725/spring-2025-final-project-project-group-1
       - text: Introduction
         href: 1_introduction.html
-      - text: Data Source and Preparation
+      - text: Data Sources
         href: 2_data.html
       - text: Retrieval-Augmented Generation
         href: 3_rag.html
