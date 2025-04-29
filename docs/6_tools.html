@@ -4657,7 +4657,7 @@ width: 95%; margin-left: 0px; padding-left: 0px; }
   <li><a href="#rag-tools" id="toc-rag-tools" class="nav-link" data-scroll-target="#rag-tools">RAG Tools</a></li>
   <li><a href="#data-engineering-tools" id="toc-data-engineering-tools" class="nav-link" data-scroll-target="#data-engineering-tools">Data Engineering Tools</a></li>
   </ul></li>
-  <li><a href="#frameworks" id="toc-frameworks" class="nav-link" data-scroll-target="#frameworks">Frameworks</a></li>
+  <li><a href="#user-interface" id="toc-user-interface" class="nav-link" data-scroll-target="#user-interface">User Interface</a></li>
   <li><a href="#version-control-and-cicd" id="toc-version-control-and-cicd" class="nav-link" data-scroll-target="#version-control-and-cicd">Version Control and CI/CD</a>
   <ul class="collapse">
   <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">References:</a></li>
@@ -4700,6 +4700,7 @@ width: 95%; margin-left: 0px; padding-left: 0px; }
 <p>Lastly, to create our user interface, we used Streamlit, a Python library that allows us to create interactive web applications. Our streamlit app acts as a chat interface, allowing users to interact with our agents and receive real-time insights on stock market data.</p>
 <section id="data-gathering-tools" class="level3">
 <h3 class="anchored" data-anchor-id="data-gathering-tools">Data Gathering Tools</h3>
+<p>The tools we defined for our data gathering agent are the following: <code>data_gathering()</code>, <code>data_to_vectorstore()</code>. The first tool is responsible for gathering data from the user’s query. The data gathering process includes several logics to ensure that the data gathered is the most recent based on the existing baseline data. The second tool is responsible for storing the data in the vector knowledge base. These tools are defined via the LangChain tools module including Hugging Face Embeddings and FAISS indexes. These tools, which are further described on the <a href="2_data.html">Data page</a>, are called upon through the data gathering agent via its defined system prompt.</p>
 </section>
 <section id="rag-tools" class="level3">
 <h3 class="anchored" data-anchor-id="rag-tools">RAG Tools</h3>
@@ -4710,9 +4711,9 @@ width: 95%; margin-left: 0px; padding-left: 0px; }
 <p>The tools we defined for our data engineering agent are the following: <code>code_generation()</code>, <code>code_execution()</code>, and <code>documentation()</code>. These tools are defined via the LangChain tools module. These tools, which are further described on the <a href="4_agents.html">Agents page</a>, are called upon through the engineering agent via its defined system prompt.</p>
 </section>
 </section>
-<section id="frameworks" class="level2">
-<h2 class="anchored" data-anchor-id="frameworks">Frameworks</h2>
-<p><em>Mention streamlit interface with in chat loggers</em></p>
+<section id="user-interface" class="level2">
+<h2 class="anchored" data-anchor-id="user-interface">User Interface</h2>
+<p>By using Streamlit to create our user interface, we were able to create an interactive web application that its easy to use and to customize for our expectations. The Streamlit app acts as a chat interface. After the user enters their query, the agents are initialized and the multi-agent system is executed. We leverage of the queue output system to be able to provide the user with dynamic status updates on the progress of the agents. The final output is then displayed and saved in the chat history. We use the <code>st.markdown</code> module to format the output and make it more attractive and readable. When the response generated includes visualizations, we use the streamlit <code>st.image</code> to display the image in the chat interface. A video demo of the interface is available on the <a href="11_video.html">Video Demo</a> page.</p>
 </section>
 <section id="version-control-and-cicd" class="level2">
 <h2 class="anchored" data-anchor-id="version-control-and-cicd">Version Control and CI/CD</h2>
