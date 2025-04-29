@@ -47,7 +47,7 @@ For the Data Engineering agent, we tested a variety of queries that included:
  * Generating time series plots.
  * Generating Smoothing Moving Average plots.
  * Generating financial reports.
- * Generating time series analysis including additional visualizations such as ACF /  PCF, lab plots, etc.
+ * Generating time series analysis including additional visualizations such as ACF /  PACF, lag plots, prophet predictions, etc.
 
 These tasks initially required further prompt engineering to enhance and fine-tune the outputs, but ultimately the agent was able to produce exactly the expected results. The plots and analyses shown below demonstrate that the Data Engineering agent successfully executed the requested tasks using its `code generation` and `code execution` tools.
 

@@ -17,6 +17,6 @@ embed-resources: true
     <p style="text-align: center; font-size: 18px;">Final Project</p>
     <h1 style="margin-top: 70px; text-align: center;">Speeding up Stock Market Insights with Generative AI</h1>
     <p style="text-align: center; font-size: 22px;">A Multi-Agent System for Stock Market Analysis</p>
-    <p style="margin-top: 80px; margin-bottom: 0px; text-align: center; font-size: 15px;">By: Shriya Chinthak and Maria Agustina Zuckerberg</p>
+    <p style="margin-top: 80px; margin-bottom: 0px; text-align: center; font-size: 15px;">By: Shriya Chinthak and Agustina Zuckerberg</p>
 </div>
 ```
