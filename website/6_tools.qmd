@@ -24,6 +24,7 @@ Lastly, to create our user interface, we used Streamlit, a Python library that a
 
 ### Data Gathering Tools
 
+
 ### RAG Tools
 
 As mentioned previously, we used LangChain to create our RAG agent. This agent is responsible for retrieving relevant data from our vector database and generating responses to user queries. Again, since we are using a rag chain to retrieve and answer user queries, we do not have any tools defined for this agent.
@@ -57,4 +58,4 @@ ${^2}$ [Bedrock](https://www.bedrock.aws/)
 
 ${^3}$ [Streamlit](https://streamlit.io/)
 
-${^4}$ [Github] (https://docs.github.com/en/get-started/using-git/about-git)
+${^4}$ [Github](https://docs.github.com/en/get-started/using-git/about-git)

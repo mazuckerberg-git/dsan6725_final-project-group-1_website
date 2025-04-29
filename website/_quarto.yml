@@ -8,7 +8,7 @@ website:
     left:
       - text: Home | About Me
         menu:
-        - text: M. Agustina Zuckerberg
+        - text: Agustina Zuckerberg
           href: https://mazuckerberg.georgetown.domains/
         - text: Shriya Chinthak
           href: https://shriya-chinthak.georgetown.domains/ 
@@ -41,6 +41,8 @@ website:
         href: 9_findings.html
       - text: Conclusion
         href: 10_conclusion.html
+      - text: Video Demo
+        href: 11_video.html
       
 format:
   html:

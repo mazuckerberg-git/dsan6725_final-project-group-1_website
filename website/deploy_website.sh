@@ -18,6 +18,7 @@ quarto render website/7_evaluations.qmd
 quarto render website/8_AI_considerations.qmd
 quarto render website/9_findings.qmd
 quarto render website/10_conclusion.qmd
+quarto render website/11_video.qmd
 
 quarto render website/index.qmd
 

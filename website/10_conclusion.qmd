@@ -31,3 +31,10 @@ If we were to continue this project, we would consider the following improvement
 - **Business and Financial Analysis**: We would consider adding more advanced business and financial analysis tools to the system that are commonly asked for in the corporate financial world.
 
 - **Faster Responses**: We would consider implementing more inference optimization techniques to improve the response time of the system since the current system is slow to respond for certain queries, especially with engineering tasks.
+
+
+<br>
+<!-- Reference to next section -->
+<div style="text-align: right; font-size: 14px;">
+  <a href="11_video.html">Next Section: Video Demo</a>
+</div>

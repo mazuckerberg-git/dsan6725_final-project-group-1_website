@@ -1,0 +1,9 @@
+---
+title: "Video Demo"
+format:
+  html:
+    toc: true
+    embed-resources: true
+---
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sggkj4MTbSM?si=Mb_G5Uc0UzoAwVf2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
